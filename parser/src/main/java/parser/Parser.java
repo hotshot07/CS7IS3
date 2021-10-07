@@ -1,3 +1,5 @@
+package parser;
+
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
 import java.io.FileWriter;
@@ -62,7 +64,7 @@ public class Parser {
     String filename = outputList.get(0).trim();
 
     if (filename.matches("[0-9]+")) {
-      String file = "Corpus/" + filename + ".txt";
+      String file = "corpus/" + filename + ".txt";
 
       BufferedWriter writer = new BufferedWriter(new FileWriter(file));
       String outputString = String.join("\n\n", outputList);

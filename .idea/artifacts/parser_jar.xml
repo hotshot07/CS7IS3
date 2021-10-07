@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="parser:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/parser_jar</output-path>
+    <root id="archive" name="parser.jar">
+      <element id="module-output" name="parser" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
