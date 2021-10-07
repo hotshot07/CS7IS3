@@ -1,10 +1,35 @@
-import org.immutables.value.Value;
+public class FileFormat {
+  private final int Index;
+  private final String Title;
+  private final String Author;
+  private final String Bibliography;
+  private final String Words;
 
-@Value.Immutable
-public abstract class FileFormat {
-    public abstract int Index();
-    public abstract String Title();
-    public abstract String Author();
-    public abstract String Bibliography();
-    public abstract String Words();
+  FileFormat(int Index, String Title, String Author, String Bibliography, String Words) {
+    this.Index = Index;
+    this.Title = Title;
+    this.Author = Author;
+    this.Bibliography = Bibliography;
+    this.Words = Words;
+  }
+
+  public int getIndex() {
+    return Index;
+  }
+
+  public String getAuthor() {
+    return Author;
+  }
+
+  public String getBibliography() {
+    return Bibliography;
+  }
+
+  public String getTitle() {
+    return Title;
+  }
+
+  public String getWords() {
+    return Words;
+  }
 }
