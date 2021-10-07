@@ -1,43 +1,9 @@
 132
 
-viscosity effects in sound waves of finite amplitude:
-in survey in mechanics .
+viscosity effects in sound waves of finite amplitude:in survey in mechanics .
 
 lighthill,m.j.
 
 ed. by g.k.batchelor and r.m.davies.  c.u.p. 1956.
 
-viscosity effects in sound waves of finite amplitude:
-in survey in mechanics .
-  this article has as its subject /the conflicting influence on
-sound propagation of convection on the one hand, and of diffusion
-and relaxation on the other/, whose importance in the
-determination of the structure of shock waves was first appreciated clearly
-by sir geoffrey taylor .  as an essential introduction to the main
-topics, author gives an exceptionally clear and valuable account
-of the physical mechanisms of viscosity, thermal conductivity, and
-other diffusion effects, including relaxation .  the classical theory
-of shock-wave formation is then discussed, and some extensions
-are made .
-  the remainder of the article is based on the demonstration that
-the nonlinear equation for plane progressive sound waves, in which
-convection and diffusion are taken into account to a first
-approximation, can be transformed into burgers's equation, the general
-solution of which was given by hopf and cole .  this approach, in
-which all flows are continuous (they become discontinuous at
-shock waves in the limit as viscosity, etc., tend to zero), allows
-the author to re-derive and extend whitham's theory of the
-formation and decay of weak plane shock waves, and to derive many
-new results, such as the velocity distributions during the union
-of two shock waves and during the formation of a shock wave .
-the application of the same idea to non-plane shock waves is
-also discussed, but more briefly,. in these cases, burgers's
-equation is not quite such a good approximation as before .
-  the article concludes with sections on sound waves whose
-reynolds numbers based on the length scale of the flow and the
-velocity amplitude are comparable with unity, and on the effects
-of relaxation on the properties of shock waves .  the whole is
-much more than a survey, and represents a very substantial
-advance in the theory of sound waves .  it is the finest possible
-tribute to sir geoffrey taylor that he should be able to inspire
-articles such as this and the others in this volume .
+viscosity effects in sound waves of finite amplitude:in survey in mechanics .  this article has as its subject /the conflicting influence onsound propagation of convection on the one hand, and of diffusionand relaxation on the other/, whose importance in thedetermination of the structure of shock waves was first appreciated clearlyby sir geoffrey taylor .  as an essential introduction to the maintopics, author gives an exceptionally clear and valuable accountof the physical mechanisms of viscosity, thermal conductivity, andother diffusion effects, including relaxation .  the classical theoryof shock-wave formation is then discussed, and some extensionsare made .  the remainder of the article is based on the demonstration thatthe nonlinear equation for plane progressive sound waves, in whichconvection and diffusion are taken into account to a firstapproximation, can be transformed into burgers's equation, the generalsolution of which was given by hopf and cole .  this approach, inwhich all flows are continuous (they become discontinuous atshock waves in the limit as viscosity, etc., tend to zero), allowsthe author to re-derive and extend whitham's theory of theformation and decay of weak plane shock waves, and to derive manynew results, such as the velocity distributions during the unionof two shock waves and during the formation of a shock wave .the application of the same idea to non-plane shock waves isalso discussed, but more briefly,. in these cases, burgers'sequation is not quite such a good approximation as before .  the article concludes with sections on sound waves whosereynolds numbers based on the length scale of the flow and thevelocity amplitude are comparable with unity, and on the effectsof relaxation on the properties of shock waves .  the whole ismuch more than a survey, and represents a very substantialadvance in the theory of sound waves .  it is the finest possibletribute to sir geoffrey taylor that he should be able to inspirearticles such as this and the others in this volume .

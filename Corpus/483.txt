@@ -1,0 +1,9 @@
+483
+
+stagnation point shock detachment distance for flowaround spheres and cylinder .
+
+ambrosio,a. and wortman,a.
+
+ars j. 32, 1962.
+
+stagnation point shock detachment distance for flowaround spheres and cylinder .  development of an analytical relation between shock detachmentdistance and free-stream mach numbers .  results are presentedgraphically for shock detachment distance of cylinders and spheresin air .

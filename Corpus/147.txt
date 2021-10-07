@@ -1,35 +1,9 @@
 147
 
-supersonic flow past slender pointed wings with ?similar?
-cross sections at zero lift .
+supersonic flow past slender pointed wings with ?similar?cross sections at zero lift .
 
 lord,w.t. and brebner,g.g.
 
 aero.quart. 10, 1959, 79.
 
-supersonic flow past slender pointed wings with ?similar?
-cross sections at zero lift .
-  some recent theoretical work on slender pointed wings at zero lift is
-co-ordinated and extended .  the wings
-considered may have any pointed plan
-form shape, provided that the trailing
-edge is straight and unswept .  the root
-section profile and cross-section shapes
-are arbitrary, provided that, on any
-one wing, the latter are /descriptively
-similar/ (diamond or parabolic biconvex
-for instance), though not necessarily
-geometrically similar .  the chief aim of
-the work is to find wings with simple
-geometry, low wave drag and pressure
-distributions which are unlikely to be
-seriously affected by viscous effects .
-wave drag and pressure distributions
-are calculated by slender-wing theory .
-general formulae, which are both simple
-and instructive, are given for the wave
-drag and the overall pressure distribution,
-with particular emphasis on the root
-pressure distribution .  results for a number
-of wings of special interest are
-presented and discussed .
+supersonic flow past slender pointed wings with ?similar?cross sections at zero lift .  some recent theoretical work on slender pointed wings at zero lift isco-ordinated and extended .  the wingsconsidered may have any pointed planform shape, provided that the trailingedge is straight and unswept .  the rootsection profile and cross-section shapesare arbitrary, provided that, on anyone wing, the latter are /descriptivelysimilar/ (diamond or parabolic biconvexfor instance), though not necessarilygeometrically similar .  the chief aim ofthe work is to find wings with simplegeometry, low wave drag and pressuredistributions which are unlikely to beseriously affected by viscous effects .wave drag and pressure distributionsare calculated by slender-wing theory .general formulae, which are both simpleand instructive, are given for the wavedrag and the overall pressure distribution,with particular emphasis on the rootpressure distribution .  results for a numberof wings of special interest arepresented and discussed .

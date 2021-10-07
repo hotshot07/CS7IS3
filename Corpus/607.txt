@@ -1,0 +1,9 @@
+607
+
+duct flow in magnetohydrodynamics .
+
+chang,c.c. and lundgen,t.s.
+
+z.angew. math.phys., 12 100-114, 1961.
+
+duct flow in magnetohydrodynamics .  this paper is an extension of the work of hartmann (2) and sherclifftransverse magnetic fields -- the simplest class of magnetohydrodynamicproblems .  we are concerned here mainly with the boundary valueproblems associated with flow in ducts with conducting walls .

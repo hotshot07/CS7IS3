@@ -1,4 +1,6 @@
+import java.io.BufferedWriter;
 import java.io.FileInputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -21,98 +23,54 @@ public class Parser {
     String delimiterRegex = ".[A-Z]";
 
     Scanner scanner = new Scanner(inputStream).useDelimiter(delimiterRegex);
-    List<String> cars = new ArrayList<>();
+    List<String> outputList = new ArrayList<>();
     while (scanner.hasNext()) {
       String addToList = scanner.next();
       addToList = addToList.replaceAll("\n+", "").trim();
 
-      cars.add(addToList);
+      outputList.add(addToList);
 
-      if (cars.size() == 5) {
-        if (cars.get(0).matches("[0-9]+")) {
-          System.out.println(cars.get(0));
-          cars.clear();
+      if (outputList.size() == 5) {
+        if (outputList.get(0).matches("[0-9]+")) {
+          // System.out.format("Creating text for %s\n", outputList.get(0));
+          WriteToCorpus(outputList);
+          outputList.clear();
         } else {
           // check if there is index somewhere
-          int index = getIndex(cars);
+          int index = getIndex(outputList);
           if (index != -1) {
-            cars = cars.subList(index, cars.size());
+            outputList = outputList.subList(index, outputList.size());
           } else {
-            cars.clear();
+            outputList.clear();
           }
         }
       }
     }
   }
 
-  private int getIndex(List<String> cars) {
-    for (int i = 0; i < cars.size(); i++) {
-      if (cars.get(i).matches("[0-9]+")) {
+  private int getIndex(List<String> outputList) {
+    for (int i = 0; i < outputList.size(); i++) {
+      if (outputList.get(i).matches("[0-9]+")) {
         return i;
       }
     }
     return -1;
   }
+
+  private void WriteToCorpus(List<String> outputList) throws IOException {
+
+    String filename = outputList.get(0).trim();
+
+    if (filename.matches("[0-9]+")) {
+      String file = "Corpus/" + filename + ".txt";
+
+      BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+      String outputString = String.join("\n\n", outputList);
+
+      writer.write(outputString.toString().trim());
+      writer.close();
+
+      System.out.format("Writing to corpus %s\n", filename);
+    }
+  }
 }
-
-//  public void NewThing() throws FileNotFoundException {
-//    FileInputStream inputStream = new FileInputStream(file);
-//    String delimiterRegex = ".[A-Z]";
-//
-//    Scanner scanner = new Scanner(inputStream).useDelimiter(delimiterRegex);
-//
-//    while (scanner.hasNext()) {
-//      String maybeIndex = scanner.next();
-//      if (maybeIndex.matches("[0-9]+")) {
-//        maybeIndex.replaceAll("\n", "");
-//
-//        int Index = Integer.parseInt(maybeIndex);
-//        String Title = scanner.next();
-//        String Author = scanner.next();
-//        String Bibliography = scanner.next();
-//        String Words = scanner.next();
-//
-//        FileFormat fileFormat = new FileFormat(Index, Title, Author, Bibliography, Words);
-//
-//        System.out.println(fileFormat.getIndex());
-//      }
-//    }
-//  }
-
-// final Pattern pattern = Pattern.compile(delimiterRegex, Pattern.MULTILINE);
-
-//        try {
-//            String everything = IOUtils.toString(inputStream, StandardCharsets.UTF_8);
-//            final Matcher matcher = pattern.matcher(everything);
-//            while (matcher.find()) {
-//                System.out.println("Full match: " + matcher.group(0));
-//                for (int i = 1; i <= matcher.groupCount(); i++) {
-//                    System.out.println("Group " + i + ": " + matcher.group(i));
-//                }
-//            }
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-
-//        scanner.findInLine(delimiterRegex);
-//        MatchResult matchResult = scanner.match();
-//
-//        for (int i = 0; i < matchResult.groupCount(); i++) {
-//            System.out.println(matchResult.group(i));
-//        }
-//        scanner.close();
-
-//  private boolean WriteToCorpus(StringBuilder outputString) throws IOException {
-//    String outputS = outputString.toString().trim();
-//    String filename = outputS.substring(0, outputS.indexOf("\n"));
-//
-//    if (filename.matches("[0-9]")) {
-//      String file = "Corpus/" + filename + ".txt";
-//      BufferedWriter writer = new BufferedWriter(new FileWriter(file));
-//
-//      writer.write(outputString.toString().trim());
-//      writer.close();
-//      return false;
-//    } else {
-//      return true;
-//    }

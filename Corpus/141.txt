@@ -6,13 +6,4 @@ hamilton,j.a. and hufton,p.a.
 
 j.roy.ae.s. 60, 1956, 151.
 
-free-flight techniques for high speed aerodynamic research .
-  the development rocket-borne and rocket-launched high-speed
-airplane model test is described .  details of airborne components,
-telemetering units, tracking, and their calibration are also discussed .
-tests on controls, drag measurements, longitudinal stability
-evaluations, lift measurements, pressure measurements, aeroelastic
-estimations, and sonic bang recordings are effected .  the reynolds numbers
-involved are much higher than are usual in the wind tunnel, and
-extensions of mach numbers are obtained beyond the tunnel limits, both free
-of the tunnel wall interference .
+free-flight techniques for high speed aerodynamic research .  the development rocket-borne and rocket-launched high-speedairplane model test is described .  details of airborne components,telemetering units, tracking, and their calibration are also discussed .tests on controls, drag measurements, longitudinal stabilityevaluations, lift measurements, pressure measurements, aeroelasticestimations, and sonic bang recordings are effected .  the reynolds numbersinvolved are much higher than are usual in the wind tunnel, andextensions of mach numbers are obtained beyond the tunnel limits, both freeof the tunnel wall interference .

@@ -1,0 +1,9 @@
+1158
+
+the tailored-interface hypersonic shock tunnel .
+
+charles e. wittliff, merle r. wilson, and abraham hertzberg
+
+cornell aeronautical laboratory, inc.
+
+the tailored-interface hypersonic shock tunnel .the /tailored-interface/ hypersonic shock tunnel provides a means forproducing the high mach number, high stagnation temperature flowconditions encountered in hypersonic flight .  various gasdynamicphenomena associated with shock tunnels are discussed, and experimentalevidence of the successful application of this technique is presented .as an indication of its research application, the results ofheat-transfer experiments on a hemisphere-cylinder model are presentedand compared with theory .

@@ -1,49 +1,9 @@
 232
 
-accuracy of approximate methods for predicting pressure
-on pointed non-lifting bodies of revolution in supersonic
-flow .
+accuracy of approximate methods for predicting pressureon pointed non-lifting bodies of revolution in supersonicflow .
 
 ehret,d.m.
 
 naca tn.2764.
 
-accuracy of approximate methods for predicting pressure
-on pointed non-lifting bodies of revolution in supersonic
-flow .
-  the accuracy and range of applicability of the linearized theory,
-second-order theory, tangent-cone method, conical-shock-expansion theory
-and newtonian theory for predicting pressure distributions on pointed
-bodies of revolution at zero angle of
-attack are investigated .  pressure
-distributions and integrated pressure
-drag obtained by these methods are
-compared with standard values obtained
-by the method of characteristics
-and the theory of taylor and maccoll .
-three shapes, cone, ogive, and a
-modified optimum body, are investigated
-over a wide range of fineness
-ratios and mach numbers .
-  it is found that the linearized
-theory is accurate only at low values
-of the hypersonic similarity parameter
-number to body fineness ratio) and that
-second-order theory appreciably
-extends the range of accurate application .
-the second-order theory gives
-good results on ogives when the ratio of
-the tangent of maximum surface
-angle to the tangent of the mach angle
-is less than 0.9 .  tangent-cone
-method cannot be widely applied with
-good accuracy .  in general, the
-conical-shock-expansion theory predicts
-pressure and drag within
-engineering accuracy when the hypersonic similarity
-parameter is greater than 1.2 .
-although newtonian theory gives good accuracy,
-except for cones, at the
-highest values of the hypersonic similarity
-parameter investigated, it is
-less accurate than the conical-shock-expansion theory .
+accuracy of approximate methods for predicting pressureon pointed non-lifting bodies of revolution in supersonicflow .  the accuracy and range of applicability of the linearized theory,second-order theory, tangent-cone method, conical-shock-expansion theoryand newtonian theory for predicting pressure distributions on pointedbodies of revolution at zero angle ofattack are investigated .  pressuredistributions and integrated pressuredrag obtained by these methods arecompared with standard values obtainedby the method of characteristicsand the theory of taylor and maccoll .three shapes, cone, ogive, and amodified optimum body, are investigatedover a wide range of finenessratios and mach numbers .  it is found that the linearizedtheory is accurate only at low valuesof the hypersonic similarity parameternumber to body fineness ratio) and thatsecond-order theory appreciablyextends the range of accurate application .the second-order theory givesgood results on ogives when the ratio ofthe tangent of maximum surfaceangle to the tangent of the mach angleis less than 0.9 .  tangent-conemethod cannot be widely applied withgood accuracy .  in general, theconical-shock-expansion theory predictspressure and drag withinengineering accuracy when the hypersonic similarityparameter is greater than 1.2 .although newtonian theory gives good accuracy,except for cones, at thehighest values of the hypersonic similarityparameter investigated, it isless accurate than the conical-shock-expansion theory .

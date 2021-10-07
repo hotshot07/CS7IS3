@@ -6,47 +6,4 @@ howarth,l.
 
 proc.roy.s.a, 164, 1938, 547.
 
-on the solution of the laminar boundary layer equations .
-the problem of the flow along a flat plate
-placed edgewise to a steady stream,
-when a retarding pressure gradient
-varying linearly as the distance x
-from the leading edge of the plate
-is superposed is discussed .  if y denotes
-distance measured perpendicular to
-the plate, a solution is obtained in the
-form of a power series in x where
-coefficients are functions of .
-differential equations are obtained for these
-coefficients .  seven of the coefficients
-have been obtained with reasonable
-accuracy, and the eighth and ninth
-roughly .  unfortunately it appears
-that about eight more terms are
-required to carry the solution to
-the point of separation,. the work
-involved in their determination is
-prohibitive .  two approximate methods
-have been developed for determining
-the error when the first seven terms
-of the series are used as an approximation .
-these methods lead to the
-determination of the point of separation
-and are in agreement as to its
-position .  if is the velocity at the
-edge of the boundary layer at the
-leading edge of the plate and is the
-velocity gradient, separation is found
-when .  a method is
-developed for the solution of the
-boundary layer equations in any retarded region .
-it is obtained by
-replacing the velocity distribution at the edge
-of the boundary layer by a
-circumscribing polygon of infinitesimal sides and
-applying the preceding solution
-to each of these sides, making the
-momentum integral continuous at each
-vortex .  the problem is thereby
-reduced to the solution of a first order
-differential equation .
+on the solution of the laminar boundary layer equations .the problem of the flow along a flat plateplaced edgewise to a steady stream,when a retarding pressure gradientvarying linearly as the distance xfrom the leading edge of the plateis superposed is discussed .  if y denotesdistance measured perpendicular tothe plate, a solution is obtained in theform of a power series in x wherecoefficients are functions of .differential equations are obtained for thesecoefficients .  seven of the coefficientshave been obtained with reasonableaccuracy, and the eighth and ninthroughly .  unfortunately it appearsthat about eight more terms arerequired to carry the solution tothe point of separation,. the workinvolved in their determination isprohibitive .  two approximate methodshave been developed for determiningthe error when the first seven termsof the series are used as an approximation .these methods lead to thedetermination of the point of separationand are in agreement as to itsposition .  if is the velocity at theedge of the boundary layer at theleading edge of the plate and is thevelocity gradient, separation is foundwhen .  a method isdeveloped for the solution of theboundary layer equations in any retarded region .it is obtained byreplacing the velocity distribution at the edgeof the boundary layer by acircumscribing polygon of infinitesimal sides andapplying the preceding solutionto each of these sides, making themomentum integral continuous at eachvortex .  the problem is therebyreduced to the solution of a first orderdifferential equation .

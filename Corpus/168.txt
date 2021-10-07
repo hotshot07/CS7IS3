@@ -1,53 +1,9 @@
 168
 
-heat conduction through a gas with one inert internal
-model .
+heat conduction through a gas with one inert internalmodel .
 
 clarke,j.f.
 
 coa n102, 1960.
 
-heat conduction through a gas with one inert internal
-model .
-  the rate of energy transfer between
-parallel flat plates is evaluated
-when the (stagnant) gas between them is
-polyatomic with one inert internal
-mode .  deviations of the thermal
-conductivity from the complete equilibrium
-of the inert mode relaxation time
-and the effectiveness of the walls in
-exciting or de-exciting this mode .
-the results are obtained via a linear
-theory consistent with small
-temperature differences between the plates .
-  it is found that the eucken-value
-of conductivity could be exceeded
-if the relaxation times are non-zero and
-the plates very effective in
-exciting the inert mode .  when relaxation
-times are very short the effect
-of the walls on the energy transfer rate
-is small, but the walls make
-their presence felt by distorting the
-temperature profiles in /boundary
-layers/ adjacent to the walls which are
-of order in thickness
-time) .  this result is
-analogous to hirschfelder's (1956) for the
-case of chemical reactions .
-  for experimental measurement of
-conductivity in a hot wire cell type
-of apparatus it is shown that extrapolation
-of measured reciprocal
-conductivities to zero reciprocal pressure
-should load to the full eucken
-value .  it is also shown that the slope of
-reciprocal apparent (measured)
-conductivity versus reciprocal pressure
-curves is a function of relaxation
-time as well as of the accommodation
-coefficients .  it is quite possible
-that the relaxation effect here is
-comparable with the temperature jump
-effects, even for rotation in diatomic molecules .
+heat conduction through a gas with one inert internalmodel .  the rate of energy transfer betweenparallel flat plates is evaluatedwhen the (stagnant) gas between them ispolyatomic with one inert internalmode .  deviations of the thermalconductivity from the complete equilibriumof the inert mode relaxation timeand the effectiveness of the walls inexciting or de-exciting this mode .the results are obtained via a lineartheory consistent with smalltemperature differences between the plates .  it is found that the eucken-valueof conductivity could be exceededif the relaxation times are non-zero andthe plates very effective inexciting the inert mode .  when relaxationtimes are very short the effectof the walls on the energy transfer rateis small, but the walls maketheir presence felt by distorting thetemperature profiles in /boundarylayers/ adjacent to the walls which areof order in thicknesstime) .  this result isanalogous to hirschfelder's (1956) for thecase of chemical reactions .  for experimental measurement ofconductivity in a hot wire cell typeof apparatus it is shown that extrapolationof measured reciprocalconductivities to zero reciprocal pressureshould load to the full euckenvalue .  it is also shown that the slope ofreciprocal apparent (measured)conductivity versus reciprocal pressurecurves is a function of relaxationtime as well as of the accommodationcoefficients .  it is quite possiblethat the relaxation effect here iscomparable with the temperature jumpeffects, even for rotation in diatomic molecules .

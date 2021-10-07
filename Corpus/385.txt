@@ -1,0 +1,9 @@
+385
+
+on a generalised porous-wall ?couette type? flow .
+
+lilley,g.m.
+
+j. ae. scs. 26,1959, 685.
+
+on a generalised porous-wall ?couette type? flow .  in a recent paper, the problem of a /couette-type/ flow inwhich the fixed wall is porous has been considered .  theresults quoted in the above reference can be obtained rigorouslyby the method stated below in which a different interpretation toone of the parameters is made .

@@ -6,37 +6,4 @@ ribner,h.s.
 
 naca r820, 1945.
 
-propeller in yaw .
-  it was realized as early as 1909 that a propeller in yaw
-develops a side force like that of a fin .  in 1917, r. g. harris
-expressed this force in terms of the torque coefficient for the
-unyawed propeller .  of several attempts to express the side
-force directly in terms of the shape of the blades, however, none
-has been completely satisfactory .  an analysis that
-incorporates induction effects not adequately covered in previous work
-and that gives good agreement with experiment over a wide
-range of operating conditions is presented herein .  the present
-analysis shows that the fin analogy may be extended to the form
-of the side-force expression and that the effective fin area may
-be taken as the projected side area of the propeller .  the
-effective aspect ratio is of the order of 8 and the appropriate dynamic
-pressure is roughly that at the propeller disk as augmented by
-the inflow .  the variation of the inflow velocity, for a
-fixed-pitch propeller, accounts for most of the variation of side force
-with advance-diameter ratio v nd .
-  the propeller forces due to an angular velocity of pitch are
-also analyzed and are shown to be very small for the pitching
-velocities that may actually be realized in maneuvers, with the
-exception of the spin .
-  further conclusions are ..  a dual-rotating propeller in yaw
-develops up to one-third more side force than a single-rotating
-propeller .  a yawed single-rotating propeller experiences a
-pitching moment in addition to the side force .  the pitching
-moment is of the order of the moment produced by a force equal
-to the side force, acting at the end of a lever arm equal to the
-propeller radius .  this cross-coupling between pitch and yaw
-is small but possibly not negligible .
-  the formulas for propellers in yaw derived herein (with the
-exception of the compressibility correction) and a series of
-charts of the side-force derivative calculated therefrom have been
-presented without derivation in an earlier report .
+propeller in yaw .  it was realized as early as 1909 that a propeller in yawdevelops a side force like that of a fin .  in 1917, r. g. harrisexpressed this force in terms of the torque coefficient for theunyawed propeller .  of several attempts to express the sideforce directly in terms of the shape of the blades, however, nonehas been completely satisfactory .  an analysis thatincorporates induction effects not adequately covered in previous workand that gives good agreement with experiment over a widerange of operating conditions is presented herein .  the presentanalysis shows that the fin analogy may be extended to the formof the side-force expression and that the effective fin area maybe taken as the projected side area of the propeller .  theeffective aspect ratio is of the order of 8 and the appropriate dynamicpressure is roughly that at the propeller disk as augmented bythe inflow .  the variation of the inflow velocity, for afixed-pitch propeller, accounts for most of the variation of side forcewith advance-diameter ratio v nd .  the propeller forces due to an angular velocity of pitch arealso analyzed and are shown to be very small for the pitchingvelocities that may actually be realized in maneuvers, with theexception of the spin .  further conclusions are ..  a dual-rotating propeller in yawdevelops up to one-third more side force than a single-rotatingpropeller .  a yawed single-rotating propeller experiences apitching moment in addition to the side force .  the pitchingmoment is of the order of the moment produced by a force equalto the side force, acting at the end of a lever arm equal to thepropeller radius .  this cross-coupling between pitch and yawis small but possibly not negligible .  the formulas for propellers in yaw derived herein (with theexception of the compressibility correction) and a series ofcharts of the side-force derivative calculated therefrom have beenpresented without derivation in an earlier report .

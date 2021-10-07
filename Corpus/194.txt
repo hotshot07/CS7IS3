@@ -1,17 +1,9 @@
 194
 
-general theory of airfoil sections having arbitrary
-shape or pressure distribution .
+general theory of airfoil sections having arbitraryshape or pressure distribution .
 
 allen,h.j.
 
 naca r833, 1945.
 
-general theory of airfoil sections having arbitrary
-shape or pressure distribution .
-  in this report a theory of thin airfoils of small camber is
-developed which permits either the velocity distribution
-corresponding to a given airfoil shape, or the airfoil shape
-corresponding to a given velocity distribution to be calculated .  the
-procedures to be employed in these calculations are outlined and
-illustrated with suitable examples .
+general theory of airfoil sections having arbitraryshape or pressure distribution .  in this report a theory of thin airfoils of small camber isdeveloped which permits either the velocity distributioncorresponding to a given airfoil shape, or the airfoil shapecorresponding to a given velocity distribution to be calculated .  theprocedures to be employed in these calculations are outlined andillustrated with suitable examples .

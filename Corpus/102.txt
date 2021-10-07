@@ -6,14 +6,4 @@ sobey,a.j.
 
 j. r. ae. s. 63, 1959, 646.
 
-advantages and limitations of models .
-summary ..  the use of models for structural test investigations in the
-presence of kinetic heating effects is examined .  the principal
-features of the complex process to be
-represented are discussed under the classifications
-external air flow, internal heat transfer,
-elastic response .  of these the second is found
-to influence most model design, and an
-analysis of a typical structure is included to
-illustrate the various contributions to
-internal heat transfer .
+advantages and limitations of models .summary ..  the use of models for structural test investigations in thepresence of kinetic heating effects is examined .  the principalfeatures of the complex process to berepresented are discussed under the classificationsexternal air flow, internal heat transfer,elastic response .  of these the second is foundto influence most model design, and ananalysis of a typical structure is included toillustrate the various contributions tointernal heat transfer .

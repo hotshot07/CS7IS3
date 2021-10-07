@@ -1,19 +1,9 @@
 71
 
-laminar boundary layer behind shock advancing into
-stationary fluid .
+laminar boundary layer behind shock advancing intostationary fluid .
 
 mirels,h.
 
 naca tn.3401, 1955.
 
-laminar boundary layer behind shock advancing into
-stationary fluid .
-  a study was made of the laminar compressible boundary layer induced
-by a shock wave advancing into a stationary fluid bounded by a wall .
-for weak shock waves, the boundary layer is identical with that which
-occurs when an infinite wall is impulsively set into uniform motion
-shocks .
-  velocity and temperature profiles, recovery factors, and
-skin-friction and heat-transfer coefficients are tabulated for a wide range
-of shock strengths .
+laminar boundary layer behind shock advancing intostationary fluid .  a study was made of the laminar compressible boundary layer inducedby a shock wave advancing into a stationary fluid bounded by a wall .for weak shock waves, the boundary layer is identical with that whichoccurs when an infinite wall is impulsively set into uniform motionshocks .  velocity and temperature profiles, recovery factors, andskin-friction and heat-transfer coefficients are tabulated for a wide rangeof shock strengths .

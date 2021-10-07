@@ -1,19 +1,9 @@
 38
 
-on the prediction of mixed subsonic/supersonic pressure
-distributions .
+on the prediction of mixed subsonic/supersonic pressuredistributions .
 
 sinnott,c.s.
 
 j. ae. scs. 27, 1960, 767.
 
-on the prediction of mixed subsonic/supersonic pressure
-distributions .
-  high-speed wind-tunnel results are analyzed to derive a
-semiempirical scheme for the prediction of transonic pressure
-distributions .  the supersonic and subsonic parts of the flow are
-treated separately, and then linked by an empirical shock
-pressure rise relation .  the significance of the empirical results is
-considered in relation to the physical mechanism of transonic
-flows .  it is also shown that theoretical solutions can be
-improved by introducing the empirical shock relation .
+on the prediction of mixed subsonic/supersonic pressuredistributions .  high-speed wind-tunnel results are analyzed to derive asemiempirical scheme for the prediction of transonic pressuredistributions .  the supersonic and subsonic parts of the flow aretreated separately, and then linked by an empirical shockpressure rise relation .  the significance of the empirical results isconsidered in relation to the physical mechanism of transonicflows .  it is also shown that theoretical solutions can beimproved by introducing the empirical shock relation .

@@ -6,19 +6,4 @@ sinnott,c.s.
 
 j.ae.scs. 26, 1959, 169.
 
-on the flow of a sonic stream past an airfoil surface .
-  this study of the flow about an airfoil in a near-sonic stream
-indicates the important factors determining the pressure
-distribution on the airfoil .  analysis of the mach wave pattern
-suggests that the supersonic domain of the flow can be derived
-from two simple-wave flows, one arising from the mach waves
-reflected at the sonic line and the other from the changes in
-airfoil surface slope .  the compressive effect of the reflected mach
-waves is determined quantitatively as a function of airfoil
-leading-edge geometry from an analysis of measured pressure
-distributions for uncambered airfoils,. and it is shown how this can
-be superimposed on the wave system from the curved surface to
-give an equivalent simple-wave flow over the airfoil .
-  an application of this scheme to the calculation of the pressure
-distribution over an airfoil in a sonic stream gives results in good
-agreement with experiment .
+on the flow of a sonic stream past an airfoil surface .  this study of the flow about an airfoil in a near-sonic streamindicates the important factors determining the pressuredistribution on the airfoil .  analysis of the mach wave patternsuggests that the supersonic domain of the flow can be derivedfrom two simple-wave flows, one arising from the mach wavesreflected at the sonic line and the other from the changes inairfoil surface slope .  the compressive effect of the reflected machwaves is determined quantitatively as a function of airfoilleading-edge geometry from an analysis of measured pressuredistributions for uncambered airfoils,. and it is shown how this canbe superimposed on the wave system from the curved surface togive an equivalent simple-wave flow over the airfoil .  an application of this scheme to the calculation of the pressuredistribution over an airfoil in a sonic stream gives results in goodagreement with experiment .

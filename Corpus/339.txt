@@ -1,0 +1,9 @@
+339
+
+experimental evaluation of heat transfer with transpirationcooling in a turbulent boundary layer at m=3 .2.
+
+bartle,e.r. and leadon,b.h.
+
+j. ae. scs. 27, 1960.
+
+experimental evaluation of heat transfer with transpirationcooling in a turbulent boundary layer at m=3 .2.  it is found that for prescribed velocity field, electrical field andconductivity, the current can be calculated by integration .  work isrelated to analytic investigation of the boundary layer in aphysically reasonable accelerator .

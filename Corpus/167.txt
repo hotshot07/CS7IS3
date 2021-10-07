@@ -6,23 +6,4 @@ clarke,j.f.
 
 j.fluid mech. 7, 1960, 577.
 
-linearized flow of a dissociating gas .
-the equations for planar two-dimensional
-steady flow of an ideal dissociating gas
-are linearized, assuming small disturbances
-to a free stream in chemical
-equilibrium .
-  as an example of their solution, the
-flow past a sharp corner in a supersonic
-stream is evaluated and the variations
-of flow properties in the relaxation zone
-are found .  numerical illustrations are
-provided using an 'oxygen-like' ideal gas
-and comparisons made with a characteristics
-solution .  the flow past a sharp
-corner can be studied in a conventional
-shock tube and it may be possible to
-verify the present theory experimentally .
-in particular it may prove feasible to
-use the results to obtain a measure of the
-reaction rates in the gas mixture .
+linearized flow of a dissociating gas .the equations for planar two-dimensionalsteady flow of an ideal dissociating gasare linearized, assuming small disturbancesto a free stream in chemicalequilibrium .  as an example of their solution, theflow past a sharp corner in a supersonicstream is evaluated and the variationsof flow properties in the relaxation zoneare found .  numerical illustrations areprovided using an 'oxygen-like' ideal gasand comparisons made with a characteristicssolution .  the flow past a sharpcorner can be studied in a conventionalshock tube and it may be possible toverify the present theory experimentally .in particular it may prove feasible touse the results to obtain a measure of thereaction rates in the gas mixture .

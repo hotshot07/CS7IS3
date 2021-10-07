@@ -1,0 +1,9 @@
+1063
+
+on obtaining solutions to the navier-stokes equationswith high speed digital computers .
+
+russell,d.b.
+
+arc 23,797, 1962.
+
+on obtaining solutions to the navier-stokes equationswith high speed digital computers .  the purpose of this paper isto show how to obtain steadystate solutions to the navier-stokesequations on a high-speed digitalcomputer .  first the relative meritsof various finite differenceformulae are discussed .  thereafterthe main part of the paper isconcerned with the methods used tosolve the finite differenceequations and an investigation is madeof all the simpler iterativemethods .
