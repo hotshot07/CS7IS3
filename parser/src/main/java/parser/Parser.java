@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Parser {
-  private String file;
+  private final String file;
 
   public Parser(String fileToRead) {
     file = fileToRead;
