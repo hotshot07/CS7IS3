@@ -1,9 +1,6 @@
 package parser;
 
-import java.io.BufferedWriter;
-import java.io.FileInputStream;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -54,6 +51,8 @@ public class DocumentParser {
   }
 
   private void WriteToCorpusDir(List<String> outputList) throws IOException {
+
+    boolean directory = new File("corpus").mkdir();
 
     String filename = outputList.get(0).trim();
 

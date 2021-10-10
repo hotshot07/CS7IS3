@@ -1,9 +1,6 @@
 package parser;
 
-import java.io.BufferedWriter;
-import java.io.FileInputStream;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -41,10 +38,12 @@ public class QueryParser {
 
   private void WriteToQueryDir(List<String> outputList) throws IOException {
 
+    boolean directory = new File("queries").mkdir();
+
     String filename = outputList.get(0).trim();
 
     if (filename.matches("[0-9]+")) {
-      String file = "query/" + filename + ".txt";
+      String file = "queries/" + filename + ".txt";
 
       BufferedWriter writer = new BufferedWriter(new FileWriter(file));
       String outputString = String.join("\n\n", outputList);
@@ -52,7 +51,7 @@ public class QueryParser {
       writer.write(outputString.trim());
       writer.close();
 
-      System.out.format("Writing to query %s.txt\n", filename);
+      System.out.format("Writing to queries %s.txt\n", filename);
     }
   }
 }
