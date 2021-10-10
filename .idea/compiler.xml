@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="parser" />
+        <module name="indexer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CS7IS3" target="1.5" />
+      <module name="indexer" target="11" />
       <module name="parser" target="11" />
     </bytecodeTargetLevel>
   </component>
