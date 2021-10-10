@@ -52,7 +52,7 @@ public class QueryParser {
       writer.write(outputString.trim());
       writer.close();
 
-      System.out.format("Writing to query %s\n", filename);
+      System.out.format("Writing to query %s.txt\n", filename);
     }
   }
 }

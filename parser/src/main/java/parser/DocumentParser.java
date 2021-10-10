@@ -66,7 +66,7 @@ public class DocumentParser {
       writer.write(outputString.trim());
       writer.close();
 
-      System.out.format("Writing to corpus %s\n", filename);
+      System.out.format("Writing to corpus %s.txt\n", filename);
     }
   }
 }
