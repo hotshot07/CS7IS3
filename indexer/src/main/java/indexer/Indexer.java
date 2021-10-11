@@ -49,16 +49,14 @@ public class Indexer {
       while (scanner.hasNext()) {
         originalList.add(scanner.next());
       }
-      System.out.println(originalList);
-      System.out.println(originalList.size());
 
       List<String> modifiedList = modifyList(originalList);
 
       Document doc = new Document();
       doc.add(new StringField("id", modifiedList.get(0), Field.Store.YES));
-      doc.add(new StringField("title", modifiedList.get(1), Field.Store.YES));
-      doc.add(new StringField("author", modifiedList.get(2), Field.Store.YES));
-      doc.add(new StringField("bibliography", modifiedList.get(3), Field.Store.YES));
+      doc.add(new TextField("title", modifiedList.get(1), Field.Store.YES));
+      doc.add(new TextField("author", modifiedList.get(2), Field.Store.YES));
+      doc.add(new TextField("bibliography", modifiedList.get(3), Field.Store.YES));
       doc.add(new TextField("text", modifiedList.get(4), Field.Store.YES));
 
       documents.add(doc);
@@ -66,7 +64,6 @@ public class Indexer {
 
     iwriter.addDocuments(documents);
 
-    // Commit everything and close
     iwriter.close();
     directory.close();
   }

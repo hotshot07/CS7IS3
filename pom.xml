@@ -11,6 +11,7 @@
     <modules>
         <module>parser</module>
         <module>indexer</module>
+        <module>querier</module>
     </modules>
 
 
