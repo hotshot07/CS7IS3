@@ -8,6 +8,7 @@ import org.apache.lucene.document.StringField;
 import org.apache.lucene.document.TextField;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
+import org.apache.lucene.search.similarities.BM25Similarity;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 
@@ -30,6 +31,9 @@ public class Indexer {
   }
 
   private static void writeToIndex() throws IOException {
+    // Analyzer analyzer = new EnglishAnalyzer(EnglishAnalyzer.getDefaultStopSet());
+
+    // Analyzer analyzer = new SimpleAnalyzer();
     Analyzer analyzer = new StandardAnalyzer();
 
     ArrayList<Document> documents = new ArrayList<Document>();
@@ -38,6 +42,8 @@ public class Indexer {
 
     IndexWriterConfig config = new IndexWriterConfig(analyzer);
     config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
+    config.setSimilarity(new BM25Similarity());
+
     IndexWriter iwriter = new IndexWriter(directory, config);
 
     List<Path> pathToFilesInFolder =
@@ -63,6 +69,7 @@ public class Indexer {
     }
 
     iwriter.addDocuments(documents);
+    System.out.format("Wrote %s documents to index", documents.size());
 
     iwriter.close();
     directory.close();

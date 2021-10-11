@@ -18,7 +18,6 @@ public class DocumentParser {
 
     Scanner scanner = new Scanner(inputStream).useDelimiter(delimiterRegex);
     List<String> outputList = new ArrayList<>();
-    // List<List<String>> finalList = new ArrayList<>();
 
     while (scanner.hasNext()) {
       String addToList = scanner.next();
@@ -41,7 +40,6 @@ public class DocumentParser {
         }
       }
     }
-    // convertAndStoreAsJson(finalList);
   }
 
   private int getIndex(List<String> outputList) {
@@ -52,14 +50,6 @@ public class DocumentParser {
     }
     return -1;
   }
-
-  //  private void convertAndStoreAsJson(List<List<String>> finalList) {
-  //    Gson finalGson = new GsonBuilder().setPrettyPrinting().create();
-  //
-  //    for(List<String> list: finalList){
-  //      Gson newObject =
-  //    }
-  //  }
 
   private void WriteToCorpusDir(List<String> outputList) throws IOException {
 

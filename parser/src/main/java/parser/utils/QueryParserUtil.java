@@ -7,10 +7,10 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Scanner;
 
-public class QueryParser {
+public class QueryParserUtil {
   private final String file;
 
-  public QueryParser(String fileToRead) {
+  public QueryParserUtil(String fileToRead) {
     file = fileToRead;
   }
 
@@ -37,7 +37,6 @@ public class QueryParser {
       }
     }
 
-    System.out.println(queries);
     return queries;
   }
 
