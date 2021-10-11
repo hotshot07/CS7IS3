@@ -1,3 +1,3 @@
-151
+Id: 151
 
-what is the best theoretical method for calculating pressure on thesurface of a wing alone .
+Query: what is the best theoretical method for calculating pressure on thesurface of a wing alone .

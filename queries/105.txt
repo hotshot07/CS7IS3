@@ -1,3 +1,3 @@
-105
+Id: 105
 
-what is the effect of an internal liquid column on the breathingvibrations of a cylindrical shell .
+Query: what is the effect of an internal liquid column on the breathingvibrations of a cylindrical shell .

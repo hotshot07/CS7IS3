@@ -1,3 +1,3 @@
-168
+Id: 168
 
-what approximate solutions are known to the direct problem of transonicflow in the throat of a nozzle,  i.e. finding the flow in a givennozzle .
+Query: what approximate solutions are known to the direct problem of transonicflow in the throat of a nozzle,  i.e. finding the flow in a givennozzle .

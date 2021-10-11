@@ -1,3 +1,3 @@
-212
+Id: 212
 
-what effect do thermal stresses have on the compressive bucklingstrength of ring-stiffened cylinders .
+Query: what effect do thermal stresses have on the compressive bucklingstrength of ring-stiffened cylinders .

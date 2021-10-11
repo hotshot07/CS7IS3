@@ -1,3 +1,3 @@
-141
+Id: 141
 
-what analytical solutions are available for stresses in edge-loadedshells of revolution .
+Query: what analytical solutions are available for stresses in edge-loadedshells of revolution .

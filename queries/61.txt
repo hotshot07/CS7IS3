@@ -1,3 +1,3 @@
-61
+Id: 61
 
-does there exist a closed-form expression for the local heat transferaround a yawed cylinder .
+Query: does there exist a closed-form expression for the local heat transferaround a yawed cylinder .

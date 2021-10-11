@@ -1,3 +1,3 @@
-95
+Id: 95
 
-what is the theoretical heat transfer distribution around a hemisphere .
+Query: what is the theoretical heat transfer distribution around a hemisphere .

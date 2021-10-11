@@ -2,6 +2,7 @@ import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
+import org.apache.lucene.queryparser.classic.MultiFieldQueryParser;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.IndexSearcher;
@@ -17,7 +18,7 @@ public class BasicQueries {
   private static String INDEX_DIRECTORY = "index";
 
   // Limit the number of search results we get
-  private static int MAX_RESULTS = 20;
+  private static int MAX_RESULTS = 30;
 
   public static void main(String[] args) throws IOException, ParseException {
 
@@ -28,10 +29,13 @@ public class BasicQueries {
 
     Analyzer analyzer = new StandardAnalyzer();
 
-    QueryParser queryParser = new QueryParser("text", analyzer);
+    QueryParser queryParser =
+        new MultiFieldQueryParser(
+            new String[] {"id", "title", "author", "bibliography", "text"}, analyzer);
     Query q =
         queryParser.parse(
-            "what similarity laws must be obeyed when constructing aeroelastic models of heated high speed aircraft .");
+            "what are the structural and aeroelastic problems associated with flight\n"
+                + "of high speed aircraft .");
 
     ScoreDoc[] hits = isearcher.search(q, MAX_RESULTS).scoreDocs;
 

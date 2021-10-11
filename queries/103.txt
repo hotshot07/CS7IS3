@@ -1,3 +1,3 @@
-103
+Id: 103
 
-is the information on the buckling of sandwich sphere available .
+Query: is the information on the buckling of sandwich sphere available .

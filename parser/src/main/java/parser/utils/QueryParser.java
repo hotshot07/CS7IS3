@@ -46,12 +46,20 @@ public class QueryParser {
       String file = "queries/" + filename + ".txt";
 
       BufferedWriter writer = new BufferedWriter(new FileWriter(file));
-      String outputString = String.join("\n\n", outputList);
+      List<String> modifiedOutputlist = modifyOutputlist(outputList);
+      String modifiedOutputString = String.join("\n\n", modifiedOutputlist);
 
-      writer.write(outputString.trim());
+      writer.write(modifiedOutputString.trim());
       writer.close();
 
       System.out.format("Writing to queries %s.txt\n", filename);
     }
+  }
+
+  private List<String> modifyOutputlist(List<String> outputList) {
+    outputList.set(0, "Id: " + outputList.get(0));
+    outputList.set(1, "Query: " + outputList.get(1));
+
+    return outputList;
   }
 }

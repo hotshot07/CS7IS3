@@ -1,3 +1,3 @@
-94
+Id: 94
 
-what is the theoretical heat transfer rate at the stagnation point of ablunt body .
+Query: what is the theoretical heat transfer rate at the stagnation point of ablunt body .
