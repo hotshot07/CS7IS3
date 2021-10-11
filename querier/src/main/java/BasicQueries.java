@@ -40,17 +40,15 @@ public class BasicQueries {
     QueryParserUtil queryParserUtil = new QueryParserUtil("cran/cran.qry");
     LinkedHashMap<Integer, String> queries = queryParserUtil.ParseQuery();
 
-    for (Map.Entry<Integer, String> originalQuery : queries.entrySet()) {
-      String modifiedQuery = originalQuery.getValue().replaceAll("\r", " ");
-      modifiedQuery = modifiedQuery.replaceAll("\\?", "");
+    for (Map.Entry<Integer, String> query : queries.entrySet()) {
 
-      ScoreDoc[] hits = isearcher.search(queryParser.parse(modifiedQuery), MAX_RESULTS).scoreDocs;
+      ScoreDoc[] hits =
+          isearcher.search(queryParser.parse(query.getValue()), MAX_RESULTS).scoreDocs;
 
       System.out.println("Documents: " + hits.length);
       for (int i = 0; i < hits.length; i++) {
         Document hitDoc = isearcher.doc(hits[i].doc);
-        System.out.println(
-            i + ") " + originalQuery.getKey() + hitDoc.get("id") + " " + hits[i].score);
+        System.out.println(i + ") " + query.getKey() + hitDoc.get("id") + " " + hits[i].score);
       }
     }
 

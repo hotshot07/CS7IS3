@@ -32,7 +32,7 @@ public class QueryParserUtil {
 
       if (outputList.size() == 2 && outputList.get(0).matches("[0-9]+")) {
         queryFilename += 1;
-        queries.put(queryFilename, outputList.get(1));
+        queries.put(queryFilename, outputList.get(1).replaceAll("\r", " ").replaceAll("\\?", ""));
         outputList.clear();
       }
     }
