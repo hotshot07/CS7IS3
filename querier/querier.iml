@@ -12,5 +12,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:8.6.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queryparser:8.6.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queries:8.6.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-sandbox:8.6.3" level="project" />
   </component>
 </module>
