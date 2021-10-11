@@ -47,7 +47,9 @@ public class Indexer {
     IndexWriter iwriter = new IndexWriter(directory, config);
 
     List<Path> pathToFilesInFolder =
-        Files.walk(Paths.get("corpus")).filter(Files::isRegularFile).collect(Collectors.toList());
+        Files.walk(Paths.get("data/corpus"))
+            .filter(Files::isRegularFile)
+            .collect(Collectors.toList());
 
     for (Path path : pathToFilesInFolder) {
       Scanner scanner = new Scanner(path).useDelimiter("\n+");
@@ -69,7 +71,7 @@ public class Indexer {
     }
 
     iwriter.addDocuments(documents);
-    System.out.format("Wrote %s documents to index", documents.size());
+    System.out.format("Indexed %s documents", documents.size());
 
     iwriter.close();
     directory.close();

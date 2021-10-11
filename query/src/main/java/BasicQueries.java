@@ -20,7 +20,6 @@ import java.util.Map;
 public class BasicQueries {
   private static String INDEX_DIRECTORY = "index";
 
-  // Limit the number of search results we get
   private static int MAX_RESULTS = 5;
 
   public static void main(String[] args) throws IOException, ParseException {
@@ -37,7 +36,7 @@ public class BasicQueries {
         new MultiFieldQueryParser(
             new String[] {"title", "author", "bibliography", "text"}, analyzer);
 
-    QueryParserUtil queryParserUtil = new QueryParserUtil("cran/cran.qry");
+    QueryParserUtil queryParserUtil = new QueryParserUtil("data/cran/cran.qry");
     LinkedHashMap<Integer, String> queries = queryParserUtil.ParseQuery();
 
     for (Map.Entry<Integer, String> query : queries.entrySet()) {

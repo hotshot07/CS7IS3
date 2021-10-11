@@ -53,12 +53,12 @@ public class DocumentParser {
 
   private void WriteToCorpusDir(List<String> outputList) throws IOException {
 
-    boolean directory = new File("corpus").mkdir();
+    boolean directory = new File("data/corpus").mkdir();
 
     String filename = outputList.get(0).trim();
 
     if (filename.matches("[0-9]+")) {
-      String file = "corpus/" + filename + ".txt";
+      String file = "data/corpus/" + filename + ".txt";
 
       BufferedWriter writer = new BufferedWriter(new FileWriter(file));
       List<String> modifiedOutputlist = modifyOutputlist(outputList);
