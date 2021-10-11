@@ -1,9 +1,9 @@
-389
+Id: 389
 
-simple shear flow past a flat plate in a compressibleviscous fluid .
+Title: simple shear flow past a flat plate in a compressibleviscous fluid .
 
-li,t.y.
+Author: li,t.y.
 
-j. ae. scs. 22, 1955, 724.
+Bibliography: j. ae. scs. 22, 1955, 724.
 
-simple shear flow past a flat plate in a compressibleviscous fluid .  by transformation of variables, the problem of a simple shear flow ofa compressible fluid over a flat plate is reduced to the correspondingproblem for an incompressible fluid .  the prandtl number of thecompressible fluid is assumed to be unity and its viscosity to be a linearfunction of temperature .
+Text: simple shear flow past a flat plate in a compressibleviscous fluid .  by transformation of variables, the problem of a simple shear flow ofa compressible fluid over a flat plate is reduced to the correspondingproblem for an incompressible fluid .  the prandtl number of thecompressible fluid is assumed to be unity and its viscosity to be a linearfunction of temperature .

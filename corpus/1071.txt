@@ -1,9 +1,9 @@
-1071
+Id: 1071
 
-stability of thin torispherical shells under uniforminternal pressure .
+Title: stability of thin torispherical shells under uniforminternal pressure .
 
-mescall,j.
+Author: mescall,j.
 
-nasa tn.d1510, 1962, 671.
+Bibliography: nasa tn.d1510, 1962, 671.
 
-stability of thin torispherical shells under uniforminternal pressure .  the stability of the toroidal portion of a torispherical shellunder internal pressure is considered from the point of view of thelinear buckling theory .  a detailed stress analysis of the prebuckledshell is made employing asymptotic integration .  the change inpotential energy of the shell is then minimized using a rayleigh-ritzprocedure for actual computation of the critical pressure .  numericalresults reveal that elastic buckling may occur for very thin shellswhose material has a relatively high value of the ratio of yield stressto elastic modulus .
+Text: stability of thin torispherical shells under uniforminternal pressure .  the stability of the toroidal portion of a torispherical shellunder internal pressure is considered from the point of view of thelinear buckling theory .  a detailed stress analysis of the prebuckledshell is made employing asymptotic integration .  the change inpotential energy of the shell is then minimized using a rayleigh-ritzprocedure for actual computation of the critical pressure .  numericalresults reveal that elastic buckling may occur for very thin shellswhose material has a relatively high value of the ratio of yield stressto elastic modulus .

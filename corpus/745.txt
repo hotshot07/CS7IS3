@@ -1,9 +1,9 @@
-745
+Id: 745
 
-an automatic method for finding the greatest or leastvalue function .
+Title: an automatic method for finding the greatest or leastvalue function .
 
-rosenbrock,h.h.
+Author: rosenbrock,h.h.
 
-computer jnl. 1960.
+Bibliography: computer jnl. 1960.
 
-an automatic method for finding the greatest or leastvalue function .the greatest or least value of a function of severalvariables is to be found when the variablesare restricted to a given region .  a method isdeveloped for dealing with this problem and iscompared with possible alternatives .  the methodcan be used on a digital computer, and isincorporated in a program for mercury .
+Text: an automatic method for finding the greatest or leastvalue function .the greatest or least value of a function of severalvariables is to be found when the variablesare restricted to a given region .  a method isdeveloped for dealing with this problem and iscompared with possible alternatives .  the methodcan be used on a digital computer, and isincorporated in a program for mercury .

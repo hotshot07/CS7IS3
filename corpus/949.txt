@@ -1,9 +1,9 @@
-949
+Id: 949
 
-charts for equilibrium flow properties of air inhyper-velocity nozzles .
+Title: charts for equilibrium flow properties of air inhyper-velocity nozzles .
 
-jorgensen,l.h. and baum,g.m.
+Author: jorgensen,l.h. and baum,g.m.
 
-nasa tn.d1333, 1962.
+Bibliography: nasa tn.d1333, 1962.
 
-charts for equilibrium flow properties of air inhyper-velocity nozzles .  for initial stagnation pressuresup to 1,000 atmospheres andstagnation enthalpies up to 10,000 btu perpound, nozzle-flow properties forequilibrium air have been computed andplotted on charts .  the work ofnasa tn d-693 has been extended toinclude flow properties for closerintervals of specified stagnationenthalpies .  properties which have beencharted as a function of mach numberare as follows ..  temperature,pressure, density, velocity, area ratio,dynamic pressure, reynolds number,isentropic exponent, and molecular weightratio .  ratios of temperature,pressure, and density across normal shockwaves are also charted, andweight-flow rate is plotted as a functionof stagnation enthalpy .
+Text: charts for equilibrium flow properties of air inhyper-velocity nozzles .  for initial stagnation pressuresup to 1,000 atmospheres andstagnation enthalpies up to 10,000 btu perpound, nozzle-flow properties forequilibrium air have been computed andplotted on charts .  the work ofnasa tn d-693 has been extended toinclude flow properties for closerintervals of specified stagnationenthalpies .  properties which have beencharted as a function of mach numberare as follows ..  temperature,pressure, density, velocity, area ratio,dynamic pressure, reynolds number,isentropic exponent, and molecular weightratio .  ratios of temperature,pressure, and density across normal shockwaves are also charted, andweight-flow rate is plotted as a functionof stagnation enthalpy .

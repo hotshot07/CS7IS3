@@ -1,9 +1,9 @@
-1249
+Id: 1249
 
-plasma flow over a thin charged conductor .
+Title: plasma flow over a thin charged conductor .
 
-yoshihara,h.
+Author: yoshihara,h.
 
-j. ae. scs. 1961, 141.
+Bibliography: j. ae. scs. 1961, 141.
 
-plasma flow over a thin charged conductor .  the flow of a dense plasma over a wavy conducting wall ofsmall amplitude is investigated where magnetic effects arenegligible .  these results are then used to analyze the flow overa thin conductor with cusped edges .  it is found that thecoulomb drag vanishes identically, while the fluid-pressure dragcorresponds to the ackeret value for a neutral particle gas at thereduced-plasma mach number .
+Text: plasma flow over a thin charged conductor .  the flow of a dense plasma over a wavy conducting wall ofsmall amplitude is investigated where magnetic effects arenegligible .  these results are then used to analyze the flow overa thin conductor with cusped edges .  it is found that thecoulomb drag vanishes identically, while the fluid-pressure dragcorresponds to the ackeret value for a neutral particle gas at thereduced-plasma mach number .

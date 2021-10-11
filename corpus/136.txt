@@ -1,9 +1,9 @@
-136
+Id: 136
 
-recent developments in rocket nozzle configurations .
+Title: recent developments in rocket nozzle configurations .
 
-roa,g.v.r.
+Author: roa,g.v.r.
 
-a.r.s.jnl. 31, 1961,1488.
+Bibliography: a.r.s.jnl. 31, 1961,1488.
 
-recent developments in rocket nozzle configurations .  existing configurations of supersonic portion of rocket nozzlesare described and compared .  survey covers bell-type conical andcontoured nozzles, annular nozzles, plug nozzles, and the author'sown /e-d/ (expansion-deflection) nozzle .  the latter is abell-type nozzle in which the gases are first deflected radially outwardby a small central plug, then expanded radially inward around thebase of the plug, and finally deflected back to a nearly axialdirection by the nozzle wall, in compressive turning .
+Text: recent developments in rocket nozzle configurations .  existing configurations of supersonic portion of rocket nozzlesare described and compared .  survey covers bell-type conical andcontoured nozzles, annular nozzles, plug nozzles, and the author'sown /e-d/ (expansion-deflection) nozzle .  the latter is abell-type nozzle in which the gases are first deflected radially outwardby a small central plug, then expanded radially inward around thebase of the plug, and finally deflected back to a nearly axialdirection by the nozzle wall, in compressive turning .

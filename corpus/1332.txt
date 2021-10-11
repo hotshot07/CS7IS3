@@ -1,9 +1,9 @@
-1332
+Id: 1332
 
-calculated spanwise lift distributions, influence functionsand influence coefficients for unswept wings in subsonicflow .
+Title: calculated spanwise lift distributions, influence functionsand influence coefficients for unswept wings in subsonicflow .
 
-diederich,f.w. and zlotnick,m.
+Author: diederich,f.w. and zlotnick,m.
 
-naca r.1228, 1955.
+Bibliography: naca r.1228, 1955.
 
-calculated spanwise lift distributions, influence functionsand influence coefficients for unswept wings in subsonicflow .  spanwise lift distributions have been calculated for nineteenunswept wings with various aspect ratios and taper ratios andwith a variety of angle-of-attack or twist distributions, includingflap and aileron deflections, by means of the weissinger methodwith eight control points on the semispan .  also calculatedwere aerodynamic influence coefficients which pertain to acertain definite set of stations along the span, and severalmethods are presented for calculating aerodynamic influencefunctions and coefficients for stations other than those stipulated .  the information presented herein can be used in the analysisof untwisted wings or wings with known twist distributions, aswell as in aeroelastic calculations involving initially unknowntwist distributions .
+Text: calculated spanwise lift distributions, influence functionsand influence coefficients for unswept wings in subsonicflow .  spanwise lift distributions have been calculated for nineteenunswept wings with various aspect ratios and taper ratios andwith a variety of angle-of-attack or twist distributions, includingflap and aileron deflections, by means of the weissinger methodwith eight control points on the semispan .  also calculatedwere aerodynamic influence coefficients which pertain to acertain definite set of stations along the span, and severalmethods are presented for calculating aerodynamic influencefunctions and coefficients for stations other than those stipulated .  the information presented herein can be used in the analysisof untwisted wings or wings with known twist distributions, aswell as in aeroelastic calculations involving initially unknowntwist distributions .

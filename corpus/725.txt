@@ -1,9 +1,9 @@
-725
+Id: 725
 
-the response of a typical aircraft structure to jetnoise .
+Title: the response of a typical aircraft structure to jetnoise .
 
-clarkson,b.l. and ford,r.d.
+Author: clarkson,b.l. and ford,r.d.
 
-j. roy. aero. soc. 1962.
+Bibliography: j. roy. aero. soc. 1962.
 
-the response of a typical aircraft structure to jetnoise .  an analysis is made of experimentally determined mode shapesexcited on the rear structure of a modern airliner by jet noise froma pod-mounted turbojet engine .  power spectra of stressesdetermined from strain-gage measurements are obtained and crosscorrelated .  extensive measurements were made on skin panels of thefuselage and elevator and limited ones were made on fuselagestringers and frames .  the skin-panel results are compared withtheoretical predictions .  reviewer believes that this paper is ofconsiderable value for those concerned with response ofaircraft-type structures to jet-induced noise .
+Text: the response of a typical aircraft structure to jetnoise .  an analysis is made of experimentally determined mode shapesexcited on the rear structure of a modern airliner by jet noise froma pod-mounted turbojet engine .  power spectra of stressesdetermined from strain-gage measurements are obtained and crosscorrelated .  extensive measurements were made on skin panels of thefuselage and elevator and limited ones were made on fuselagestringers and frames .  the skin-panel results are compared withtheoretical predictions .  reviewer believes that this paper is ofconsiderable value for those concerned with response ofaircraft-type structures to jet-induced noise .

@@ -1,9 +1,9 @@
-1243
+Id: 1243
 
-supersonic boom of wing-body configurations .
+Title: supersonic boom of wing-body configurations .
 
-ryhming,i.l. and yoler,y.a.
+Author: ryhming,i.l. and yoler,y.a.
 
-j. ae. scs. 1961, 313.
+Bibliography: j. ae. scs. 1961, 313.
 
-supersonic boom of wing-body configurations .  the supersonic boom in steady, level flight of a wing-bodyconfiguration is due to the effects of body volume, wing volume,wing incidence or lift, and wing-body interference .  thecontribution in the far field of each of these factors can, in any givenazimuthal plane, be represented as that of an equivalent bodyof revolution .  this concept is developed to investigate thepossibilities of using interference among the components of awing-body configuration to reduce or suppress the boom due tolift .  results of wind tunnel experiments are also presented anddiscussed in light of the theoretical indications .
+Text: supersonic boom of wing-body configurations .  the supersonic boom in steady, level flight of a wing-bodyconfiguration is due to the effects of body volume, wing volume,wing incidence or lift, and wing-body interference .  thecontribution in the far field of each of these factors can, in any givenazimuthal plane, be represented as that of an equivalent bodyof revolution .  this concept is developed to investigate thepossibilities of using interference among the components of awing-body configuration to reduce or suppress the boom due tolift .  results of wind tunnel experiments are also presented anddiscussed in light of the theoretical indications .

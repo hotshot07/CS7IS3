@@ -1,9 +1,9 @@
-1267
+Id: 1267
 
-on supersonic flow past thick airfoils .
+Title: on supersonic flow past thick airfoils .
 
-kogan,a.
+Author: kogan,a.
 
-j. ae. scs. 1960, 504.
+Bibliography: j. ae. scs. 1960, 504.
 
-on supersonic flow past thick airfoils .  the inviscid rotational supersonic flow behind the shock waveattached to the sharp leading edge of an airfoil is studied by atransformation of coordinates which introduces the crocco streamfunction as an independent variable .  using expansions in the power series of, an iterative processis developed for the determination of pressure distribution alongthe airfoil surface .
+Text: on supersonic flow past thick airfoils .  the inviscid rotational supersonic flow behind the shock waveattached to the sharp leading edge of an airfoil is studied by atransformation of coordinates which introduces the crocco streamfunction as an independent variable .  using expansions in the power series of, an iterative processis developed for the determination of pressure distribution alongthe airfoil surface .

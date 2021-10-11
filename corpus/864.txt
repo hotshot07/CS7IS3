@@ -1,9 +1,9 @@
-864
+Id: 864
 
-status of flutter of flat and curved panels .
+Title: status of flutter of flat and curved panels .
 
-national advisory committee for aeronautics
+Author: national advisory committee for aeronautics
 
+Bibliography: 
 
-
-status of flutter of flat and curved panels .representative results are presented to show the current status ofthe panel flutter problem .  the discussion includes flat panels withand without midplane stresses, buckled panels, and both unstiffened andstiffened infinitely long circular cylinders .
+Text: status of flutter of flat and curved panels .representative results are presented to show the current status ofthe panel flutter problem .  the discussion includes flat panels withand without midplane stresses, buckled panels, and both unstiffened andstiffened infinitely long circular cylinders .

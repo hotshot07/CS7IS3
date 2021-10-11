@@ -1,9 +1,9 @@
-1123
+Id: 1123
 
-an extension of donnell's equation for a circular cylindrical shell .
+Title: an extension of donnell's equation for a circular cylindrical shell .
 
-tsu-tao loo
+Author: tsu-tao loo
 
-associate professor of mechanics, rensselaer polytechnic institute,troy, n.y.
+Bibliography: associate professor of mechanics, rensselaer polytechnic institute,troy, n.y.
 
-an extension of donnell's equation for a circular cylindrical shell .in 1933, donnell succeeded in simplifying the equations of equilibriumfor a circular cylindrical shellhe obtained simple relations between the critical buckling shearingstress and the physical properties of a thin circular cylinder underpure torsion .  his approach reduces the tedious computations involvedin the classical solutions and is still in good agreement with them .furthermore, it is easy to show that the well-known classical solutionfor critical compressive stress of the cylinder under axial compressioncan readily be obtained from donnell's equation .
+Text: an extension of donnell's equation for a circular cylindrical shell .in 1933, donnell succeeded in simplifying the equations of equilibriumfor a circular cylindrical shellhe obtained simple relations between the critical buckling shearingstress and the physical properties of a thin circular cylinder underpure torsion .  his approach reduces the tedious computations involvedin the classical solutions and is still in good agreement with them .furthermore, it is easy to show that the well-known classical solutionfor critical compressive stress of the cylinder under axial compressioncan readily be obtained from donnell's equation .

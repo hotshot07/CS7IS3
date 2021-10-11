@@ -1,9 +1,9 @@
-408
+Id: 408
 
-on convective motion of a conducting fluid betweenparallel vertical plates in a magnetic field .
+Title: on convective motion of a conducting fluid betweenparallel vertical plates in a magnetic field .
 
-regirer,s.a.
+Author: regirer,s.a.
 
-soviet physics, 37, 1960.
+Bibliography: soviet physics, 37, 1960.
 
-on convective motion of a conducting fluid betweenparallel vertical plates in a magnetic field .  stationary convective motion of a conducting fluidbetween vertical parallel plates in amagnetic field is considered .  an exact solution of themagnetohydrodynamic equations isobtained for the case of a constant vertical temperaturegradient .  the critical value ofgrasshof's number is determined for the case when thetemperature of both plates is the same .
+Text: on convective motion of a conducting fluid betweenparallel vertical plates in a magnetic field .  stationary convective motion of a conducting fluidbetween vertical parallel plates in amagnetic field is considered .  an exact solution of themagnetohydrodynamic equations isobtained for the case of a constant vertical temperaturegradient .  the critical value ofgrasshof's number is determined for the case when thetemperature of both plates is the same .

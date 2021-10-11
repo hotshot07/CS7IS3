@@ -1,9 +1,9 @@
-935
+Id: 935
 
-buckling of thin single- and multi-layer conical and cylindricalshells with rotationally symmetric stresses .
+Title: buckling of thin single- and multi-layer conical and cylindricalshells with rotationally symmetric stresses .
 
-p. p. radkowski
+Author: p. p. radkowski
 
-avco manufacturing corporation
+Bibliography: avco manufacturing corporation
 
-buckling of thin single- and multi-layer conical and cylindricalshells with rotationally symmetric stresses .the buckling of simply supported, thin, single- and multi-layer conicalshells under axially symmetrical loading is analyzed in this paper .the results are presented in a compact manner so that they may be easilyused for design and/or experimental purposes .  the results are comparedwith known experimental values .
+Text: buckling of thin single- and multi-layer conical and cylindricalshells with rotationally symmetric stresses .the buckling of simply supported, thin, single- and multi-layer conicalshells under axially symmetrical loading is analyzed in this paper .the results are presented in a compact manner so that they may be easilyused for design and/or experimental purposes .  the results are comparedwith known experimental values .

@@ -1,9 +1,9 @@
-955
+Id: 955
 
-the membrane approach to bending instability of pressureizedcylindrical shells .
+Title: the membrane approach to bending instability of pressureizedcylindrical shells .
 
-mccomb,h.g., zender,g.w. and mikulas,m.m.
+Author: mccomb,h.g., zender,g.w. and mikulas,m.m.
 
-nasa tn.d1510, 1962, 229.
+Bibliography: nasa tn.d1510, 1962, 229.
 
-the membrane approach to bending instability of pressureizedcylindrical shells .  recent theoretical and experimentalresearch is briefly describedto trace the development of deformationand the occurrence of collapse inpressurized circular cylindrical membranesunder applied moment loading .the collapse of pure membrane cylindersis then compared with instabilityof pressurized cylindrical shells .this approach leads to a betterunderstanding of the behavior of pressurizedcylinders under bending loads .the results suggest possibilities forfurther research utilizing themembrane approach .
+Text: the membrane approach to bending instability of pressureizedcylindrical shells .  recent theoretical and experimentalresearch is briefly describedto trace the development of deformationand the occurrence of collapse inpressurized circular cylindrical membranesunder applied moment loading .the collapse of pure membrane cylindersis then compared with instabilityof pressurized cylindrical shells .this approach leads to a betterunderstanding of the behavior of pressurizedcylinders under bending loads .the results suggest possibilities forfurther research utilizing themembrane approach .

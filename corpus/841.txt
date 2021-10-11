@@ -1,9 +1,9 @@
-841
+Id: 841
 
-on the bending of circular cylindrical shells underpure bending .
+Title: on the bending of circular cylindrical shells underpure bending .
 
-seide,p. and weingarten,v.i.
+Author: seide,p. and weingarten,v.i.
 
-j. app. mech. 28, 1961.
+Bibliography: j. app. mech. 28, 1961.
 
-on the bending of circular cylindrical shells underpure bending .the stability of circular cylindrical shells under pure bending isinvestigated by means of batdorf's modified donnell's equation and thegalerkin method .  the results of this investigation have shown that,contrary to the commonly accepted value, the maximum critical bendingstress is for all practical purposes equal to the critical compressivestress .
+Text: on the bending of circular cylindrical shells underpure bending .the stability of circular cylindrical shells under pure bending isinvestigated by means of batdorf's modified donnell's equation and thegalerkin method .  the results of this investigation have shown that,contrary to the commonly accepted value, the maximum critical bendingstress is for all practical purposes equal to the critical compressivestress .

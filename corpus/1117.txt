@@ -1,9 +1,9 @@
-1117
+Id: 1117
 
-stability of orthotropic cylindrical shells under combinedloading .
+Title: stability of orthotropic cylindrical shells under combinedloading .
 
-hess,t.e.
+Author: hess,t.e.
 
-ars j. 31, 1961.
+Bibliography: ars j. 31, 1961.
 
-stability of orthotropic cylindrical shells under combinedloading .  the increasing use of fiber and whiskerreinforced materials makes necessary the availability ofmethods of analyzing cylinders and conescomposed of an orthotropic material .  this paper treatsthe buckling of such shells under a combinationof axial compression and uniform external pressure .the differential equation approach of flugge isused, and the resulting buckling equation ispresented in terms of axial and circumferentialbending rigidities, shear rigidity, poisson's ratio,geometry parameters and mode shapes .  designcurves are presented which allow quickdetermination of critical loads on cylinders, and, by usingthe equivalent cylinder concept, on conical shellsof small included angle .  the curves also lendthemselves to /tailoring/ of materials to fit the loadcarrying requirements of the structure .
+Text: stability of orthotropic cylindrical shells under combinedloading .  the increasing use of fiber and whiskerreinforced materials makes necessary the availability ofmethods of analyzing cylinders and conescomposed of an orthotropic material .  this paper treatsthe buckling of such shells under a combinationof axial compression and uniform external pressure .the differential equation approach of flugge isused, and the resulting buckling equation ispresented in terms of axial and circumferentialbending rigidities, shear rigidity, poisson's ratio,geometry parameters and mode shapes .  designcurves are presented which allow quickdetermination of critical loads on cylinders, and, by usingthe equivalent cylinder concept, on conical shellsof small included angle .  the curves also lendthemselves to /tailoring/ of materials to fit the loadcarrying requirements of the structure .

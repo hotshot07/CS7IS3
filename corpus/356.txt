@@ -1,9 +1,9 @@
-356
+Id: 356
 
-on optimum nose curves for missiles in the super-aerodynamicregime .
+Title: on optimum nose curves for missiles in the super-aerodynamicregime .
 
-tan,h.s.
+Author: tan,h.s.
 
-j. ae. scs. 25, 1958, 56.
+Bibliography: j. ae. scs. 25, 1958, 56.
 
-on optimum nose curves for missiles in the super-aerodynamicregime .  author shows that the differential equations defining theminimum drag body shapes for free molecule flow that were developedand numerically integrated by w. j. carter (amr 11 (1958), rev.realized, however, that numerical or analytical integration of thesecond-order differential equation is unnecessary since, for theflow conditions considered, the first integral to the euler equationcan be written prior to the substitution of the expression definingthe pressure coefficient .
+Text: on optimum nose curves for missiles in the super-aerodynamicregime .  author shows that the differential equations defining theminimum drag body shapes for free molecule flow that were developedand numerically integrated by w. j. carter (amr 11 (1958), rev.realized, however, that numerical or analytical integration of thesecond-order differential equation is unnecessary since, for theflow conditions considered, the first integral to the euler equationcan be written prior to the substitution of the expression definingthe pressure coefficient .

@@ -1,9 +1,9 @@
-892
+Id: 892
 
-research on unsteady flow .
+Title: research on unsteady flow .
 
-jones,w.p.
+Author: jones,w.p.
 
-j. ae. scs. 29, 1962, 249.
+Bibliography: j. ae. scs. 29, 1962, 249.
 
-research on unsteady flow .  this is a survey of certain recent advances made in the studyof aerodynamic unsteady flow and of some of the new problemsarising which require further investigation .  no attempt is made toreproduce classical theory, but emphasis rather is laid on validityand general usefulness, particular attention being given tounsteady boundary-layer effects, especially when there is flowseparation .  coverage is broad and author thus provides a useful reviewfor those interested in this field .
+Text: research on unsteady flow .  this is a survey of certain recent advances made in the studyof aerodynamic unsteady flow and of some of the new problemsarising which require further investigation .  no attempt is made toreproduce classical theory, but emphasis rather is laid on validityand general usefulness, particular attention being given tounsteady boundary-layer effects, especially when there is flowseparation .  coverage is broad and author thus provides a useful reviewfor those interested in this field .

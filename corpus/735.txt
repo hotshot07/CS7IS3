@@ -1,9 +1,9 @@
-735
+Id: 735
 
-the bending of uniformly loaded sectorial plates withclamped edges .
+Title: the bending of uniformly loaded sectorial plates withclamped edges .
 
-conway,h.d. and huang,m.k.
+Author: conway,h.d. and huang,m.k.
 
-j. app. mech. 19, 1962, 5.
+Bibliography: j. app. mech. 19, 1962, 5.
 
-the bending of uniformly loaded sectorial plates withclamped edges .  this paper analyzes the bending of a sectorial plate,clamped on all edges and subjected to uniformlydistributed load, by using two different methods of superpositionon the elementary solution for a uniformly loaded circularplate with a clamped edge .
+Text: the bending of uniformly loaded sectorial plates withclamped edges .  this paper analyzes the bending of a sectorial plate,clamped on all edges and subjected to uniformlydistributed load, by using two different methods of superpositionon the elementary solution for a uniformly loaded circularplate with a clamped edge .

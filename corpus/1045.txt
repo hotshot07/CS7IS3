@@ -1,9 +1,9 @@
-1045
+Id: 1045
 
-the bending strength of pressurized cylinders .
+Title: the bending strength of pressurized cylinders .
 
-zender,g.w.
+Author: zender,g.w.
 
-j. ae. scs. 29, 1962, 362.
+Bibliography: j. ae. scs. 29, 1962, 362.
 
-the bending strength of pressurized cylinders .  discussion of previously presented experimental data for theloading of pressurized cylinders, in terms of membrane theory .
+Text: the bending strength of pressurized cylinders .  discussion of previously presented experimental data for theloading of pressurized cylinders, in terms of membrane theory .

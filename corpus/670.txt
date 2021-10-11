@@ -1,9 +1,9 @@
-670
+Id: 670
 
-on blunt-body heat transfer at hypersonic speed and low reynoldsnumber .
+Title: on blunt-body heat transfer at hypersonic speed and low reynoldsnumber .
 
-ferri, a. zakkay, v. and ting, l.
+Author: ferri, a. zakkay, v. and ting, l.
 
-j. aero. sc. v. 29. p. 882, 1962 .
+Bibliography: j. aero. sc. v. 29. p. 882, 1962 .
 
-on blunt-body heat transfer at hypersonic speed and low reynoldsnumber .a discussion of differences arising between experimental and analyticalresults, in particular those due to inconsistencies introduced in thepresentation of data and the way the comparison is made .
+Text: on blunt-body heat transfer at hypersonic speed and low reynoldsnumber .a discussion of differences arising between experimental and analyticalresults, in particular those due to inconsistencies introduced in thepresentation of data and the way the comparison is made .

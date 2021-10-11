@@ -1,9 +1,9 @@
-3
+Id: 3
 
-the boundary layer in simple shear flow past a flat plate .
+Title: the boundary layer in simple shear flow past a flat plate .
 
-m. b. glauert
+Author: m. b. glauert
 
-department of mathematics, university of manchester, manchester,england
+Bibliography: department of mathematics, university of manchester, manchester,england
 
-the boundary layer in simple shear flow past a flat plate .the boundary-layer equations are presented for steadyincompressible flow with no pressure gradient .
+Text: the boundary layer in simple shear flow past a flat plate .the boundary-layer equations are presented for steadyincompressible flow with no pressure gradient .

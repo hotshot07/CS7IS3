@@ -1,9 +1,9 @@
-778
+Id: 778
 
-an integral related to the radiation integrals .
+Title: an integral related to the radiation integrals .
 
-powell,e.o.
+Author: powell,e.o.
 
-phil. mag. 34, 1943, 600.
+Bibliography: phil. mag. 34, 1943, 600.
 
-an integral related to the radiation integrals .  the author points out the relation of the integralto problems in astrophysics and quantum mechanics, andbecause of its importance supplies a table of values .  thetable gives rl(x) to seven places of decimals from x=0 tox=6.00 at intervals of 0.01 .  second order central differencesare tabulated to assist in interpolation .
+Text: an integral related to the radiation integrals .  the author points out the relation of the integralto problems in astrophysics and quantum mechanics, andbecause of its importance supplies a table of values .  thetable gives rl(x) to seven places of decimals from x=0 tox=6.00 at intervals of 0.01 .  second order central differencesare tabulated to assist in interpolation .

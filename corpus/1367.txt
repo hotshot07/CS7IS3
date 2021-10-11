@@ -1,9 +1,9 @@
-1367
+Id: 1367
 
-a theoretical investigation of the effects of mach number, reynoldsnumber, wall temperature and surface curvature on laminar separation insupersonic flow .
+Title: a theoretical investigation of the effects of mach number, reynoldsnumber, wall temperature and surface curvature on laminar separation insupersonic flow .
 
-gadd, g.e.
+Author: gadd, g.e.
 
-a.r.c. 18,494, june 1956 .
+Bibliography: a.r.c. 18,494, june 1956 .
 
-a theoretical investigation of the effects of mach number, reynoldsnumber, wall temperature and surface curvature on laminar separation insupersonic flow .laminar separation in supersonic flow is investigated by an extension of stratford's method . it is assumed that separation is of the usualpractical type, taking place upstream of the shock wave or other agencyprovoking it . the results of the analysis agree well in most respectswith experiment .
+Text: a theoretical investigation of the effects of mach number, reynoldsnumber, wall temperature and surface curvature on laminar separation insupersonic flow .laminar separation in supersonic flow is investigated by an extension of stratford's method . it is assumed that separation is of the usualpractical type, taking place upstream of the shock wave or other agencyprovoking it . the results of the analysis agree well in most respectswith experiment .

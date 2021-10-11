@@ -1,9 +1,9 @@
-387
+Id: 387
 
-heat transfer for laminar flow in an annulus with porouswall .
+Title: heat transfer for laminar flow in an annulus with porouswall .
 
-inman,r.m.
+Author: inman,r.m.
 
-j. ae. scs. 26, 1959, 532.
+Bibliography: j. ae. scs. 26, 1959, 532.
 
-heat transfer for laminar flow in an annulus with porouswall .  temperature profiles and heat-transfer rates of establishedincompressible flow through an annulus channel with porous wallsof constant temperatures are determined at different injection rates .axial conduction and viscous dissipation are, as usual, neglected .injecting fluid is tacitly assumed to have the same temperature asthe porous wall .
+Text: heat transfer for laminar flow in an annulus with porouswall .  temperature profiles and heat-transfer rates of establishedincompressible flow through an annulus channel with porous wallsof constant temperatures are determined at different injection rates .axial conduction and viscous dissipation are, as usual, neglected .injecting fluid is tacitly assumed to have the same temperature asthe porous wall .

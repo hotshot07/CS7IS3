@@ -1,9 +1,9 @@
-382
+Id: 382
 
-a note on the laminar boundary layer on a circular cylinder inaxial incompressible flow .
+Title: a note on the laminar boundary layer on a circular cylinder inaxial incompressible flow .
 
-howard r. kelly
+Author: howard r. kelly
 
-u.s. naval ordnance test station, inyokern, china lake, calif.
+Bibliography: u.s. naval ordnance test station, inyokern, china lake, calif.
 
-a note on the laminar boundary layer on a circular cylinder inaxial incompressible flow .a correction is made for the equation to compute the ratioof the displacement thickness on a cylinder to the correspondingthickness on a flat plate .
+Text: a note on the laminar boundary layer on a circular cylinder inaxial incompressible flow .a correction is made for the equation to compute the ratioof the displacement thickness on a cylinder to the correspondingthickness on a flat plate .

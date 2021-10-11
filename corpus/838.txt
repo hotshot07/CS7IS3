@@ -1,9 +1,9 @@
-838
+Id: 838
 
-bending and compression tests of pressurised ring-stiffenedcylinders .
+Title: bending and compression tests of pressurised ring-stiffenedcylinders .
 
-dow,m.b. and peterson,j.p.
+Author: dow,m.b. and peterson,j.p.
 
-nasa tn.d360, 1960.
+Bibliography: nasa tn.d360, 1960.
 
-bending and compression tests of pressurised ring-stiffenedcylinders .  the results of tests on pressurized ring-stiffened cylinderssubjected to compression and bending are presented and discussed .  theresults obtained at high values of internal pressure differ from thoseobtained by previous investigators in that the theoreticalsmall-deflection compressive buckling coefficient of 0.6 was nearly achievedin each test .  small amounts of internal pressure had a greaterstabilizing effect in the bending tests than in the compression tests .
+Text: bending and compression tests of pressurised ring-stiffenedcylinders .  the results of tests on pressurized ring-stiffened cylinderssubjected to compression and bending are presented and discussed .  theresults obtained at high values of internal pressure differ from thoseobtained by previous investigators in that the theoreticalsmall-deflection compressive buckling coefficient of 0.6 was nearly achievedin each test .  small amounts of internal pressure had a greaterstabilizing effect in the bending tests than in the compression tests .

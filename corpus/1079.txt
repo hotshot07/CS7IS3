@@ -1,9 +1,9 @@
-1079
+Id: 1079
 
-finite difference formulae for the square lattices .
+Title: finite difference formulae for the square lattices .
 
-nicley,w.g.
+Author: nicley,w.g.
 
-q.j.mech. app. math, 1, p35.
+Bibliography: q.j.mech. app. math, 1, p35.
 
-finite difference formulae for the square lattices .  the paper gives approximate formulaefor derivatives (including combinationslike and ), and integrals, of a functionof two independent variables, in termsof its values at nodes of a square lattice,primarily for use in the numerical solutionof partial differential equations .  considerationis given to the form, as well as tothe magnitude, of the leading terms in theerror, and what is believed to be formost purposes optimum combinations arethus selected for the simpler compactsets of nodes .
+Text: finite difference formulae for the square lattices .  the paper gives approximate formulaefor derivatives (including combinationslike and ), and integrals, of a functionof two independent variables, in termsof its values at nodes of a square lattice,primarily for use in the numerical solutionof partial differential equations .  considerationis given to the form, as well as tothe magnitude, of the leading terms in theerror, and what is believed to be formost purposes optimum combinations arethus selected for the simpler compactsets of nodes .

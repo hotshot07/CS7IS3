@@ -1,9 +1,9 @@
-1116
+Id: 1116
 
-general instability of stiffened cylinders .
+Title: general instability of stiffened cylinders .
 
-becker,h.
+Author: becker,h.
 
-naca tn.4237, 1958.
+Bibliography: naca tn.4237, 1958.
 
-general instability of stiffened cylinders .  theoretical buckling stressesare determined in explicit form forcircular cylinders withcircumferential and axial stiffening .  theloadings are axial compression, radialpressure, hydrostatic pressure,and torsion .  analyses were confinedto moderate-length and longcylinders .  the investigation was basedupon the use of a form of donnell'sequation derived by taylor which isapplicable to orthotropic cylinders .the derivation of this equation ispresented in this report .
+Text: general instability of stiffened cylinders .  theoretical buckling stressesare determined in explicit form forcircular cylinders withcircumferential and axial stiffening .  theloadings are axial compression, radialpressure, hydrostatic pressure,and torsion .  analyses were confinedto moderate-length and longcylinders .  the investigation was basedupon the use of a form of donnell'sequation derived by taylor which isapplicable to orthotropic cylinders .the derivation of this equation ispresented in this report .

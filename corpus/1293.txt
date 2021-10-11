@@ -1,9 +1,9 @@
-1293
+Id: 1293
 
-design of stiffened cylinders in axial compression .
+Title: design of stiffened cylinders in axial compression .
 
-hedgepeth,j.m.
+Author: hedgepeth,j.m.
 
-nasa tn.d1510, 1962.
+Bibliography: nasa tn.d1510, 1962.
 
-design of stiffened cylinders in axial compression .  the problem of optimum designof axially compressed cylindersstiffened by rings and stringers isdiscussed .  particularattention is devoted to configurationssuitable for large launchvehicles .  consideration is given tothe analytical techniques fordetermining strength as well asthe procedures for optimization .
+Text: design of stiffened cylinders in axial compression .  the problem of optimum designof axially compressed cylindersstiffened by rings and stringers isdiscussed .  particularattention is devoted to configurationssuitable for large launchvehicles .  consideration is given tothe analytical techniques fordetermining strength as well asthe procedures for optimization .

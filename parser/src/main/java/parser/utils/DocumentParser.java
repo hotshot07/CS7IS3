@@ -1,4 +1,4 @@
-package parser;
+package parser.utils;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -12,12 +12,14 @@ public class DocumentParser {
     file = fileToRead;
   }
 
-  void ParseDocument() throws IOException {
+  public void ParseDocument() throws IOException {
     FileInputStream inputStream = new FileInputStream(file);
     String delimiterRegex = ".[A-Z]";
 
     Scanner scanner = new Scanner(inputStream).useDelimiter(delimiterRegex);
     List<String> outputList = new ArrayList<>();
+    // List<List<String>> finalList = new ArrayList<>();
+
     while (scanner.hasNext()) {
       String addToList = scanner.next();
       addToList = addToList.replaceAll("\n+", "").trim();
@@ -39,6 +41,7 @@ public class DocumentParser {
         }
       }
     }
+    // convertAndStoreAsJson(finalList);
   }
 
   private int getIndex(List<String> outputList) {
@@ -50,6 +53,14 @@ public class DocumentParser {
     return -1;
   }
 
+  //  private void convertAndStoreAsJson(List<List<String>> finalList) {
+  //    Gson finalGson = new GsonBuilder().setPrettyPrinting().create();
+  //
+  //    for(List<String> list: finalList){
+  //      Gson newObject =
+  //    }
+  //  }
+
   private void WriteToCorpusDir(List<String> outputList) throws IOException {
 
     boolean directory = new File("corpus").mkdir();
@@ -60,12 +71,23 @@ public class DocumentParser {
       String file = "corpus/" + filename + ".txt";
 
       BufferedWriter writer = new BufferedWriter(new FileWriter(file));
-      String outputString = String.join("\n\n", outputList);
+      List<String> modifiedOutputlist = modifyOutputlist(outputList);
+      String modifiedOutputString = String.join("\n\n", modifiedOutputlist);
 
-      writer.write(outputString.trim());
+      writer.write(modifiedOutputString.trim());
       writer.close();
 
       System.out.format("Writing to corpus %s.txt\n", filename);
     }
+  }
+
+  private List<String> modifyOutputlist(List<String> outputList) {
+    outputList.set(0, "Id: " + outputList.get(0));
+    outputList.set(1, "Title: " + outputList.get(1));
+    outputList.set(2, "Author: " + outputList.get(2));
+    outputList.set(3, "Bibliography: " + outputList.get(3));
+    outputList.set(4, "Text: " + outputList.get(4));
+
+    return outputList;
   }
 }

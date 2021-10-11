@@ -1,9 +1,9 @@
-178
+Id: 178
 
-on full dispersed shock waves in carbon dioxide .
+Title: on full dispersed shock waves in carbon dioxide .
 
-griffith,w.c. and kenny,a.
+Author: griffith,w.c. and kenny,a.
 
-j.fluid mech. 3, 1957, 286.
+Bibliography: j.fluid mech. 3, 1957, 286.
 
-on full dispersed shock waves in carbon dioxide .  it is pointed out that, for shock mach numbers between 1 andthat the adjustments in the energy in all the degrees of freedomproceed slowly and in parallel and occur over a distance largecompared with the mean free path .  theoretical velocity profilesfor such shock waves are given and found to be in excellentagreement with interferometric shock-tube observations .
+Text: on full dispersed shock waves in carbon dioxide .  it is pointed out that, for shock mach numbers between 1 andthat the adjustments in the energy in all the degrees of freedomproceed slowly and in parallel and occur over a distance largecompared with the mean free path .  theoretical velocity profilesfor such shock waves are given and found to be in excellentagreement with interferometric shock-tube observations .

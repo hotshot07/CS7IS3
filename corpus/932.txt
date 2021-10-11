@@ -1,9 +1,9 @@
-932
+Id: 932
 
-buckling of circular cones under axial compression .
+Title: buckling of circular cones under axial compression .
 
-lackman,l. and penzien,j.
+Author: lackman,l. and penzien,j.
 
-j. app. mech. 27, 1960, 458.
+Bibliography: j. app. mech. 27, 1960, 458.
 
-buckling of circular cones under axial compression .presented are the results of an experimentalinvestigation to determine the bucklingstrength of right circular cones under axialcompression .  correlation of these data ismade with existing theory and with previouslypublished experimental data on circularcylinders,. thus a recommended procedurefor predicting the buckling load of rightcircular cones under the foregoing loadingcondition is presented .
+Text: buckling of circular cones under axial compression .presented are the results of an experimentalinvestigation to determine the bucklingstrength of right circular cones under axialcompression .  correlation of these data ismade with existing theory and with previouslypublished experimental data on circularcylinders,. thus a recommended procedurefor predicting the buckling load of rightcircular cones under the foregoing loadingcondition is presented .

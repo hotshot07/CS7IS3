@@ -1,9 +1,9 @@
-1140
+Id: 1140
 
-shock-standoff distance for spherical bodies at highmach numbers .
+Title: shock-standoff distance for spherical bodies at highmach numbers .
 
-chaudhury,p.r.
+Author: chaudhury,p.r.
 
-j. ae. scs. 29, 1962, 745.
+Bibliography: j. ae. scs. 29, 1962, 745.
 
-shock-standoff distance for spherical bodies at highmach numbers .  usaf-sponsored development of a simple expression forshock-standoff distance, by consideration of an apropriate specific-heatratio behind the shock .  the theory gives predictions which arealmost as accurate as those of the van dyke and hays methods .
+Text: shock-standoff distance for spherical bodies at highmach numbers .  usaf-sponsored development of a simple expression forshock-standoff distance, by consideration of an apropriate specific-heatratio behind the shock .  the theory gives predictions which arealmost as accurate as those of the van dyke and hays methods .

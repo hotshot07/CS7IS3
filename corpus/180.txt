@@ -1,9 +1,9 @@
-180
+Id: 180
 
-boundary layer over a flat plate in presence of shearflow .
+Title: boundary layer over a flat plate in presence of shearflow .
 
-ting,l.
+Author: ting,l.
 
-phys. fluids, 13, 1960, 78.
+Bibliography: phys. fluids, 13, 1960, 78.
 
-boundary layer over a flat plate in presence of shearflow .  the governing equations of an incompressibleboundary layer over a flat plate in the presence of ashear flow with finite vorticity are derived .  for largevorticity, a similarity solution is obtained .  formoderate vorticity, one of the governing equationsis replaced by an approximate one for whichsimilarity solutions exist .
+Text: boundary layer over a flat plate in presence of shearflow .  the governing equations of an incompressibleboundary layer over a flat plate in the presence of ashear flow with finite vorticity are derived .  for largevorticity, a similarity solution is obtained .  formoderate vorticity, one of the governing equationsis replaced by an approximate one for whichsimilarity solutions exist .

@@ -1,9 +1,9 @@
-463
+Id: 463
 
-physical properties of plastics for photo-thermoelasticinvestigation .
+Title: physical properties of plastics for photo-thermoelasticinvestigation .
 
-tramposch,h. and gerard,g.
+Author: tramposch,h. and gerard,g.
 
-j.app. mech. 25, 1958.
+Bibliography: j.app. mech. 25, 1958.
 
-physical properties of plastics for photo-thermoelasticinvestigation .  the optical and physical properties ofparaplex p43, castolite, and epoxy resinhysol 6000-op, which are potentially ofinterest in photothermoelastic investigations,were investigated over a temperature rangefrom +100 to -60 f .  results on thethermal-expansion coefficient, the materialfringe value, and the modulus of elasticityas functions of temperature are presented .also evaluated were thermal properties ofimportance in heat conduction .  photothermoelasticfigures of merit, which rate theoptical sensitivity of materials in photothermoelasticapplications, as well as a newmethod to determine this figure in a relative manner are presented .
+Text: physical properties of plastics for photo-thermoelasticinvestigation .  the optical and physical properties ofparaplex p43, castolite, and epoxy resinhysol 6000-op, which are potentially ofinterest in photothermoelastic investigations,were investigated over a temperature rangefrom +100 to -60 f .  results on thethermal-expansion coefficient, the materialfringe value, and the modulus of elasticityas functions of temperature are presented .also evaluated were thermal properties ofimportance in heat conduction .  photothermoelasticfigures of merit, which rate theoptical sensitivity of materials in photothermoelasticapplications, as well as a newmethod to determine this figure in a relative manner are presented .

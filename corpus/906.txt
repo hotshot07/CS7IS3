@@ -1,9 +1,9 @@
-906
+Id: 906
 
-review of the pitot tube .
+Title: review of the pitot tube .
 
-folson,r.g.
+Author: folson,r.g.
 
-asme trans. 70, 1956.
+Bibliography: asme trans. 70, 1956.
 
-review of the pitot tube .  this paper is an attempt to bring together theimportant information regarding pitot tubes and their use,.to summarize the available data on the application ofvarious types of impact and velocity probes for theguidance of engineers and research workers,. and to aidthem in the design of flow instruments for specificapplications .
+Text: review of the pitot tube .  this paper is an attempt to bring together theimportant information regarding pitot tubes and their use,.to summarize the available data on the application ofvarious types of impact and velocity probes for theguidance of engineers and research workers,. and to aidthem in the design of flow instruments for specificapplications .

@@ -1,9 +1,9 @@
-877
+Id: 877
 
-the influence of aerodynamic heating on the flexuralrigidity of a thin wing .
+Title: the influence of aerodynamic heating on the flexuralrigidity of a thin wing .
 
-mansfield,e.h.
+Author: mansfield,e.h.
 
-arc r + m.3115, 1957.
+Bibliography: arc r + m.3115, 1957.
 
-the influence of aerodynamic heating on the flexuralrigidity of a thin wing .  this report considers the loss of flexural rigidity of a thin wing dueto the presence of middle-surface stresses resulting from aerodynamicheating .  the spanwise properties of the wing are assumed constant butthe wing section is arbitrary .  the loss of flexural rigidity iscomparable with the corresponding loss of torsional rigidity .
+Text: the influence of aerodynamic heating on the flexuralrigidity of a thin wing .  this report considers the loss of flexural rigidity of a thin wing dueto the presence of middle-surface stresses resulting from aerodynamicheating .  the spanwise properties of the wing are assumed constant butthe wing section is arbitrary .  the loss of flexural rigidity iscomparable with the corresponding loss of torsional rigidity .

@@ -1,9 +1,9 @@
-650
+Id: 650
 
-some design problems of hovercraft .
+Title: some design problems of hovercraft .
 
-stanton-jones,r.
+Author: stanton-jones,r.
 
-inst. aero. sc. paper 61-45, 1961.
+Bibliography: inst. aero. sc. paper 61-45, 1961.
 
-some design problems of hovercraft .analysis of the influence various aerodynamic parameters have onthe performance of a simple peripheral jet system .  power weightratio, lift drag ratio, and effect of jet angles and thickness areeach considered .  structural requirements, optimum cushionpressure, and dynamic stability over waves are examined and thenrelated to the economics of ground-effect machine operation .
+Text: some design problems of hovercraft .analysis of the influence various aerodynamic parameters have onthe performance of a simple peripheral jet system .  power weightratio, lift drag ratio, and effect of jet angles and thickness areeach considered .  structural requirements, optimum cushionpressure, and dynamic stability over waves are examined and thenrelated to the economics of ground-effect machine operation .

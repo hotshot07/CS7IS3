@@ -1,9 +1,9 @@
-1048
+Id: 1048
 
-a small deflection theory for curved sandwich plates .
+Title: a small deflection theory for curved sandwich plates .
 
-stein,m. and mayers,j.
+Author: stein,m. and mayers,j.
 
-naca r.1008, 1951.
+Bibliography: naca r.1008, 1951.
 
-a small deflection theory for curved sandwich plates .  a small-deflection theory that takes into account deformationsdue to transverse shear is presented for the elastic-behavioranalysis of orthotropic plates of constant cylindrical curvaturewith considerations of buckling included .  the theory isapplicable primarily to sandwich construction .
+Text: a small deflection theory for curved sandwich plates .  a small-deflection theory that takes into account deformationsdue to transverse shear is presented for the elastic-behavioranalysis of orthotropic plates of constant cylindrical curvaturewith considerations of buckling included .  the theory isapplicable primarily to sandwich construction .

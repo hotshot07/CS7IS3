@@ -1,9 +1,9 @@
-1060
+Id: 1060
 
-buckled states of circular plates .
+Title: buckled states of circular plates .
 
-keller,h.b., keller,j.b. and reiss,e.l.
+Author: keller,h.b., keller,j.b. and reiss,e.l.
 
-q. app. math. 20, 1962, 55.
+Bibliography: q. app. math. 20, 1962, 55.
 
-buckled states of circular plates .  authors discuss the thin elastic circular disk of constantthickness subjected to a constant compressive thrust applied at itsedge .  the analysis presented is based upon the nonlinear vonkarman equations of plate theory and is applied to disks withcompletely clamped and completely, simply supported edges .
+Text: buckled states of circular plates .  authors discuss the thin elastic circular disk of constantthickness subjected to a constant compressive thrust applied at itsedge .  the analysis presented is based upon the nonlinear vonkarman equations of plate theory and is applied to disks withcompletely clamped and completely, simply supported edges .

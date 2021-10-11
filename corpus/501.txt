@@ -1,9 +1,9 @@
-501
+Id: 501
 
-stagnation-point shock detachment of blunt bodies insupersonic flow .
+Title: stagnation-point shock detachment of blunt bodies insupersonic flow .
 
-ridyard,h.w.
+Author: ridyard,h.w.
 
-j. ae. scs. 29, 1962, 751.
+Bibliography: j. ae. scs. 29, 1962, 751.
 
-stagnation-point shock detachment of blunt bodies insupersonic flow .  presentation of stagnation-point shock-detachment distancesdetermined by the exact numerical method of gravalos, edelfelt,and emmons .  the results are compared with those from thepreviously published methods of van dyke and gordon, li and geiger,and serbin, and with experimental data .
+Text: stagnation-point shock detachment of blunt bodies insupersonic flow .  presentation of stagnation-point shock-detachment distancesdetermined by the exact numerical method of gravalos, edelfelt,and emmons .  the results are compared with those from thepreviously published methods of van dyke and gordon, li and geiger,and serbin, and with experimental data .

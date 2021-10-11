@@ -1,9 +1,9 @@
-1178
+Id: 1178
 
-buckling of ring-stiffened cylinders under a pure bendingmoment and a nonuniform temperature distribution .
+Title: buckling of ring-stiffened cylinders under a pure bendingmoment and a nonuniform temperature distribution .
 
-anderson,m.s. and card,m.f.
+Author: anderson,m.s. and card,m.f.
 
-nasa tn.d1513, 1962.
+Bibliography: nasa tn.d1513, 1962.
 
-buckling of ring-stiffened cylinders under a pure bendingmoment and a nonuniform temperature distribution .  thirteen stainless-steel ring-stiffenedcylinders were subjected to a purebending load and heated rapidly untilbuckling occurred .  for most of thecylinders the heating was not uniform aroundthe circumference so that appreciableaxial thermal stresses were present .elementary thermal stress theory was foundto be inadequate for the prediction ofthese thermal stresses, but a method wasdeveloped that would give satisfactorythermal stress results .  by properlyaccounting for the thermal stress, thebuckling load could be correlated with atheory for the buckling of an axiallycompressed ring-stiffened cylinder that isuniformly heated .
+Text: buckling of ring-stiffened cylinders under a pure bendingmoment and a nonuniform temperature distribution .  thirteen stainless-steel ring-stiffenedcylinders were subjected to a purebending load and heated rapidly untilbuckling occurred .  for most of thecylinders the heating was not uniform aroundthe circumference so that appreciableaxial thermal stresses were present .elementary thermal stress theory was foundto be inadequate for the prediction ofthese thermal stresses, but a method wasdeveloped that would give satisfactorythermal stress results .  by properlyaccounting for the thermal stress, thebuckling load could be correlated with atheory for the buckling of an axiallycompressed ring-stiffened cylinder that isuniformly heated .

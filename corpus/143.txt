@@ -1,9 +1,9 @@
-143
+Id: 143
 
-interplanetary orbits .
+Title: interplanetary orbits .
 
-vertregt,m.
+Author: vertregt,m.
 
-j.brit.inter.s. 16, 1958, 326.
+Bibliography: j.brit.inter.s. 16, 1958, 326.
 
-interplanetary orbits .  the basic equations under simplifiedconditions for interplanetary flight are derived .for a voyage from planet to planet anunlimited number of orbits is possible .  inorder to give a clear survey of these possibleorbits a diagram is developed from which theapproximate energy-requirement, the duration,and other particulars of a voyage can beeasily found .
+Text: interplanetary orbits .  the basic equations under simplifiedconditions for interplanetary flight are derived .for a voyage from planet to planet anunlimited number of orbits is possible .  inorder to give a clear survey of these possibleorbits a diagram is developed from which theapproximate energy-requirement, the duration,and other particulars of a voyage can beeasily found .

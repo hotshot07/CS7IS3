@@ -1,9 +1,9 @@
-260
+Id: 260
 
-a critical review of skin friction and heat transfersolutions of the laminar boundary layer of a flat plate .
+Title: a critical review of skin friction and heat transfersolutions of the laminar boundary layer of a flat plate .
 
-rubesin,m.w. and johnson,h.a.
+Author: rubesin,m.w. and johnson,h.a.
 
-asme trans. 1949.
+Bibliography: asme trans. 1949.
 
-a critical review of skin friction and heat transfersolutions of the laminar boundary layer of a flat plate .  a review is made of existing literature concerned withthe analytical investigation of the velocity andtemperature distributions in the boundary layers of a heated (orcooled) flat plate .  the plate is postulated infinitely thinand is parallel to a uniform fluid stream .  the morerecent solutions include the combined effects of frictionaldissipation and variable fluid properties .  only the resultspertaining to the transfer phenomena occurring at theplate surface are included, i.e., skin drag and over-allheat transfer,. the individual temperature and velocitydistributions leading to these results are omitted .
+Text: a critical review of skin friction and heat transfersolutions of the laminar boundary layer of a flat plate .  a review is made of existing literature concerned withthe analytical investigation of the velocity andtemperature distributions in the boundary layers of a heated (orcooled) flat plate .  the plate is postulated infinitely thinand is parallel to a uniform fluid stream .  the morerecent solutions include the combined effects of frictionaldissipation and variable fluid properties .  only the resultspertaining to the transfer phenomena occurring at theplate surface are included, i.e., skin drag and over-allheat transfer,. the individual temperature and velocitydistributions leading to these results are omitted .

@@ -1,9 +1,9 @@
-1253
+Id: 1253
 
-hypersonic viscous flow near the stagnation point inthe presence of magnetic field .
+Title: hypersonic viscous flow near the stagnation point inthe presence of magnetic field .
 
-wu,ching-sheng.
+Author: wu,ching-sheng.
 
-j. ae. scs. 1960, 882.
+Bibliography: j. ae. scs. 1960, 882.
 
-hypersonic viscous flow near the stagnation point inthe presence of magnetic field .  the present study investigates the hypersonic viscous flowpast blunt-nosed bodies with hydromagnetic interaction .local-similarity solutions of flow field and temperature distribution arenear the stagnation-point region .  the discussions may begrouped into two parts ..  the two-dimensional problem (circularcylinder) and axisymmetric problem (sphere) .  numerical computations have been carried out for the sphereproblem for the /viscous-layer regime,/ with various magneticfield strengths and electrical conductivities .
+Text: hypersonic viscous flow near the stagnation point inthe presence of magnetic field .  the present study investigates the hypersonic viscous flowpast blunt-nosed bodies with hydromagnetic interaction .local-similarity solutions of flow field and temperature distribution arenear the stagnation-point region .  the discussions may begrouped into two parts ..  the two-dimensional problem (circularcylinder) and axisymmetric problem (sphere) .  numerical computations have been carried out for the sphereproblem for the /viscous-layer regime,/ with various magneticfield strengths and electrical conductivities .

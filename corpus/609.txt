@@ -1,9 +1,9 @@
-609
+Id: 609
 
-on three dimensional bodies of delta planform whichcan support plane attached shock waves .
+Title: on three dimensional bodies of delta planform whichcan support plane attached shock waves .
 
-peckman,d.h.
+Author: peckman,d.h.
 
-rae tn. aero.2812.
+Bibliography: rae tn. aero.2812.
 
-on three dimensional bodies of delta planform whichcan support plane attached shock waves .  this note collects together in one report available theoretical workon bodies which can support attached plane shock waves, discusses someof the possible merits of such shapes, and includes some calculationsillustrating their properties .  also, some preliminary results fromwind tunnel tests are given, together with details of proposed futuretests .
+Text: on three dimensional bodies of delta planform whichcan support plane attached shock waves .  this note collects together in one report available theoretical workon bodies which can support attached plane shock waves, discusses someof the possible merits of such shapes, and includes some calculationsillustrating their properties .  also, some preliminary results fromwind tunnel tests are given, together with details of proposed futuretests .

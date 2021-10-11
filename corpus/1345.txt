@@ -1,9 +1,9 @@
-1345
+Id: 1345
 
-the use of aerodynamic lift during entry into the earth'satmosphere .
+Title: the use of aerodynamic lift during entry into the earth'satmosphere .
 
-lees,l.
+Author: lees,l.
 
-space tech. lab. r. gm-tr-0165-00519, 1958.
+Bibliography: space tech. lab. r. gm-tr-0165-00519, 1958.
 
-the use of aerodynamic lift during entry into the earth'satmosphere .  by employing aerodynamic lift during entry into the earth'satmosphere at either orbital or /escape/ velocity, the range ofallowable entry angles for a prescribed peak deceleration isgreatly increased, while the total heat energy transferred to thevehicle can be held to about the same value as for a nonliftingvehicle .  only modest lift-drag ratios are required beyond peak gto prevent the deceleration from exceeding the peak value, or toprevent the vehicle from skipping out of the earth's atmosphere .thus, the difficult guidance and control problem is greatlyalleviated,. in particular, for return from the moon or otherplanets the necessity for multiple-pass drag braking is eliminated .
+Text: the use of aerodynamic lift during entry into the earth'satmosphere .  by employing aerodynamic lift during entry into the earth'satmosphere at either orbital or /escape/ velocity, the range ofallowable entry angles for a prescribed peak deceleration isgreatly increased, while the total heat energy transferred to thevehicle can be held to about the same value as for a nonliftingvehicle .  only modest lift-drag ratios are required beyond peak gto prevent the deceleration from exceeding the peak value, or toprevent the vehicle from skipping out of the earth's atmosphere .thus, the difficult guidance and control problem is greatlyalleviated,. in particular, for return from the moon or otherplanets the necessity for multiple-pass drag braking is eliminated .

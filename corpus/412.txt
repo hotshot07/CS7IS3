@@ -1,9 +1,9 @@
-412
+Id: 412
 
-critical combinations of shear and transverse directstress for an infinitely long flat plate withedges elastically restrained against rotation .
+Title: critical combinations of shear and transverse directstress for an infinitely long flat plate withedges elastically restrained against rotation .
 
-batdorf,s.b. and houbolt,j.c.
+Author: batdorf,s.b. and houbolt,j.c.
 
+Bibliography: 
 
-
-critical combinations of shear and transverse directstress for an infinitely long flat plate withedges elastically restrained against rotation .  an exact solution and a closely concurring approximateenergy solution are given for the buckling of an infinitely longflat plate under combined shear and transverse direct stresswith edges elastically restrained against rotation .  it was foundthat an appreciable fraction of the critical stress in pure shearmay be applied to the plate without any reduction in thetransverse compressive stress necessary to produce buckling .  aninteraction formula in general use was shown to be decidedlyconservative for the range in which it is supposed to apply .
+Text: critical combinations of shear and transverse directstress for an infinitely long flat plate withedges elastically restrained against rotation .  an exact solution and a closely concurring approximateenergy solution are given for the buckling of an infinitely longflat plate under combined shear and transverse direct stresswith edges elastically restrained against rotation .  it was foundthat an appreciable fraction of the critical stress in pure shearmay be applied to the plate without any reduction in thetransverse compressive stress necessary to produce buckling .  aninteraction formula in general use was shown to be decidedlyconservative for the range in which it is supposed to apply .

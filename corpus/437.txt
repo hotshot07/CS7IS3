@@ -1,9 +1,9 @@
-437
+Id: 437
 
-hypervelocity stagnation point heat transfer .
+Title: hypervelocity stagnation point heat transfer .
 
-scala, s. m. and warren, w. r.
+Author: scala, s. m. and warren, w. r.
 
-arsj. jan. 1962 .
+Bibliography: arsj. jan. 1962 .
 
-hypervelocity stagnation point heat transfer .this analysis includes the specific contributions of atoms, molecules,tions are .. /i/ partially ionized air can be approximated as afour-component gas including n2, n, n and e,. /ii/ the gas is in localthermochemical equilibrium,. /iii/ there is no charge separation,. /iv/thermal diffusion is neglected,. /v/ no electrical or magnetic fields,. low re effects are neglected .
+Text: hypervelocity stagnation point heat transfer .this analysis includes the specific contributions of atoms, molecules,tions are .. /i/ partially ionized air can be approximated as afour-component gas including n2, n, n and e,. /ii/ the gas is in localthermochemical equilibrium,. /iii/ there is no charge separation,. /iv/thermal diffusion is neglected,. /v/ no electrical or magnetic fields,. low re effects are neglected .

@@ -1,9 +1,9 @@
-21
+Id: 21
 
-on heat transfer in slip flow .
+Title: on heat transfer in slip flow .
 
-stephen h. maslen
+Author: stephen h. maslen
 
-lewis flight propulsion laboratory, naca, cleveland, ohio
+Bibliography: lewis flight propulsion laboratory, naca, cleveland, ohio
 
-on heat transfer in slip flow .a number of authors have considered the effect of slip on the heattransfer and skin friction in a laminar boundary layer over a flat plate .reference 1 considers this by a perturbation on the usual laminarboundary-layer analysis while some other studies.dash e.g., referencethe impulsive motion of an infinite plate .
+Text: on heat transfer in slip flow .a number of authors have considered the effect of slip on the heattransfer and skin friction in a laminar boundary layer over a flat plate .reference 1 considers this by a perturbation on the usual laminarboundary-layer analysis while some other studies.dash e.g., referencethe impulsive motion of an infinite plate .

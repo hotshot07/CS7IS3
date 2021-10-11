@@ -1,9 +1,9 @@
-944
+Id: 944
 
-one dimensional heat conduction through the skin ofa vehicle upon entering a planetary atmosphere at constantvelocity and entry angle .
+Title: one dimensional heat conduction through the skin ofa vehicle upon entering a planetary atmosphere at constantvelocity and entry angle .
 
-wells,w.r. and mclellan,c.h.
+Author: wells,w.r. and mclellan,c.h.
 
-nasa tn.d1476, 1962.
+Bibliography: nasa tn.d1476, 1962.
 
-one dimensional heat conduction through the skin ofa vehicle upon entering a planetary atmosphere at constantvelocity and entry angle .  closed-form solutions of theone-dimensional heat-conductionequations for the flow of heat into aplate with a laminar boundary layerhave been obtained for a configurationentering a planetary atmospherewith constant velocity and negativeentry angle .  the atmospheric densitywas assumed to obey an exponential lawand the temperature was assumedconstant initially .  the solution is inthe form of a fourier seriesexpansion which, for most practicalapplications, can be approximated byretaining only one term of the expression .the solution applies to theinitial part of the entry before the maximumheating conditions areencountered .
+Text: one dimensional heat conduction through the skin ofa vehicle upon entering a planetary atmosphere at constantvelocity and entry angle .  closed-form solutions of theone-dimensional heat-conductionequations for the flow of heat into aplate with a laminar boundary layerhave been obtained for a configurationentering a planetary atmospherewith constant velocity and negativeentry angle .  the atmospheric densitywas assumed to obey an exponential lawand the temperature was assumedconstant initially .  the solution is inthe form of a fourier seriesexpansion which, for most practicalapplications, can be approximated byretaining only one term of the expression .the solution applies to theinitial part of the entry before the maximumheating conditions areencountered .

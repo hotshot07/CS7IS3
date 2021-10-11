@@ -1,9 +1,9 @@
-1055
+Id: 1055
 
-non-linear bending and buckling of circular plates .
+Title: non-linear bending and buckling of circular plates .
 
-keller,h.b. and reiss,e.l.
+Author: keller,h.b. and reiss,e.l.
 
-proc. 3rd u.s. nat. cong. app. mech. 1958, 375.
+Bibliography: proc. 3rd u.s. nat. cong. app. mech. 1958, 375.
 
-non-linear bending and buckling of circular plates .  iterative solutions of finite differenceapproximations of the non-linear von karmanplate equations are presented .  resultsare obtained for circular plates under avariety of boundary conditions subjected toeither uniform lateral pressure or uniformedge thrust .  the solution, carried out numerically onthe aec univac at new york university,yields a complete description of stressesand deflections for an apparently unlimitedrange of load parameters .  in addition, boundarylayer phenomena are discussed .  forcomputing purposes, this iterative method provesto be superior to the previously usedpower series method and may be applicable toother non-linear problems .
+Text: non-linear bending and buckling of circular plates .  iterative solutions of finite differenceapproximations of the non-linear von karmanplate equations are presented .  resultsare obtained for circular plates under avariety of boundary conditions subjected toeither uniform lateral pressure or uniformedge thrust .  the solution, carried out numerically onthe aec univac at new york university,yields a complete description of stressesand deflections for an apparently unlimitedrange of load parameters .  in addition, boundarylayer phenomena are discussed .  forcomputing purposes, this iterative method provesto be superior to the previously usedpower series method and may be applicable toother non-linear problems .

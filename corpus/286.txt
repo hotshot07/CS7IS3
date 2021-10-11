@@ -1,9 +1,9 @@
-286
+Id: 286
 
-effect of roll on dynamic instability of symmetricmissiles .
+Title: effect of roll on dynamic instability of symmetricmissiles .
 
-murphy,c.h.
+Author: murphy,c.h.
 
-j. ae. scs. 21, 1954.
+Bibliography: j. ae. scs. 21, 1954.
 
-effect of roll on dynamic instability of symmetricmissiles .  this note attempts to extend the discussion by stating aslightly neater form of generalized stability conditions anddescribing certain experimental results on dynamic instability .
+Text: effect of roll on dynamic instability of symmetricmissiles .  this note attempts to extend the discussion by stating aslightly neater form of generalized stability conditions anddescribing certain experimental results on dynamic instability .

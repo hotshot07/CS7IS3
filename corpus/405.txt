@@ -1,9 +1,9 @@
-405
+Id: 405
 
-tables of thermal properties of gases .
+Title: tables of thermal properties of gases .
 
-joseph hilsenrath, chalres beckett, william bendict, liila fano, haroldhoge, joseph masi, ralph nuttall, yeram touloukian, harold woolley
+Author: joseph hilsenrath, chalres beckett, william bendict, liila fano, haroldhoge, joseph masi, ralph nuttall, yeram touloukian, harold woolley
 
-nbs circular 564 (1955)
+Bibliography: nbs circular 564 (1955)
 
-tables of thermal properties of gases .tables of thermodynamic and transport propertiesof air, argon, carbon dioxide, carbon monoxide, hydrogen,nitrogen, oxygen, and steam .
+Text: tables of thermal properties of gases .tables of thermodynamic and transport propertiesof air, argon, carbon dioxide, carbon monoxide, hydrogen,nitrogen, oxygen, and steam .

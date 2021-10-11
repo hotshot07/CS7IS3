@@ -1,9 +1,9 @@
-754
+Id: 754
 
-heat transfer through laminar boundary layers onsemi-infinite cylinders of arbitrary cross section .
+Title: heat transfer through laminar boundary layers onsemi-infinite cylinders of arbitrary cross section .
 
-bourne,d.e. and wardle,s.
+Author: bourne,d.e. and wardle,s.
 
-j. ae. scs. 29, 1962, 460.
+Bibliography: j. ae. scs. 29, 1962, 460.
 
-heat transfer through laminar boundary layers onsemi-infinite cylinders of arbitrary cross section .  this paper shows how to calculate the rate of heat transferthrough a laminar boundary layer on a semi-infinite cylinder ofarbitrary cross section .  the cylinder is placed in a stream ofincompressible fluid, the flow at infinity being parallel to thegenerators, and is maintained at a uniform temperature .  aseries solution for small downstream distances and an asymptoticformula for large downstream distances are given .  to coverthe intermediate range an approximate pohlhausen solution isobtained,. a correction of the error involved in the pohlhausensolution is suggested which, it is believed, will lead to final errorsof at most 2 percent .  the calculations are applied to ellipticcylinders, and illustrate the effect on the local rate of heat transferof varying the ratio of the major and minor axes of cross section,the length of perimeter being held fixed .
+Text: heat transfer through laminar boundary layers onsemi-infinite cylinders of arbitrary cross section .  this paper shows how to calculate the rate of heat transferthrough a laminar boundary layer on a semi-infinite cylinder ofarbitrary cross section .  the cylinder is placed in a stream ofincompressible fluid, the flow at infinity being parallel to thegenerators, and is maintained at a uniform temperature .  aseries solution for small downstream distances and an asymptoticformula for large downstream distances are given .  to coverthe intermediate range an approximate pohlhausen solution isobtained,. a correction of the error involved in the pohlhausensolution is suggested which, it is believed, will lead to final errorsof at most 2 percent .  the calculations are applied to ellipticcylinders, and illustrate the effect on the local rate of heat transferof varying the ratio of the major and minor axes of cross section,the length of perimeter being held fixed .

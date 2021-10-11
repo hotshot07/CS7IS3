@@ -1,4 +1,4 @@
-package parser;
+package parser.utils;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -12,7 +12,7 @@ public class QueryParser {
     file = fileToRead;
   }
 
-  void ParseQuery() throws IOException {
+  public void ParseQuery() throws IOException {
     FileInputStream inputStream = new FileInputStream(file);
     String delimiterRegex = ".[A-Z]";
 

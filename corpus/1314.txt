@@ -1,9 +1,9 @@
-1314
+Id: 1314
 
-production of high temperature gases in shock tubes .
+Title: production of high temperature gases in shock tubes .
 
-resler,e.l., lin,s.c. and kantrowitz,a.
+Author: resler,e.l., lin,s.c. and kantrowitz,a.
 
-j. app. phys., 23, 1852, 1390.
+Bibliography: j. app. phys., 23, 1852, 1390.
 
-production of high temperature gases in shock tubes .  this paper is intended to set forth aerodynamic andthermodynamic calculations which are useful in theproduction of strong shock waves .  the experimentalproduction of strong shock waves is discussed .comparison of the experimental shock strengths with thetheoretical calcualtions is made, and finally, somepreliminary results of shock tube studies in high temperaturegases (up to 18,000k) are briefly surveyed .
+Text: production of high temperature gases in shock tubes .  this paper is intended to set forth aerodynamic andthermodynamic calculations which are useful in theproduction of strong shock waves .  the experimentalproduction of strong shock waves is discussed .comparison of the experimental shock strengths with thetheoretical calcualtions is made, and finally, somepreliminary results of shock tube studies in high temperaturegases (up to 18,000k) are briefly surveyed .

@@ -1,9 +1,9 @@
-223
+Id: 223
 
-a note on the theory of the stanton tube .
+Title: a note on the theory of the stanton tube .
 
-gadd,g.e.
+Author: gadd,g.e.
 
-arc r + m 3147, 1958.
+Bibliography: arc r + m 3147, 1958.
 
-a note on the theory of the stanton tube .  existing theories for the stanton tube arecritically reviewed, and the paper then outlines asimple method which predicts the calibration functionat high reynolds numbers to the right order ofmagnitude .
+Text: a note on the theory of the stanton tube .  existing theories for the stanton tube arecritically reviewed, and the paper then outlines asimple method which predicts the calibration functionat high reynolds numbers to the right order ofmagnitude .

@@ -1,9 +1,9 @@
-1396
+Id: 1396
 
-shear buckling of clamped and simply-supported infinitelylong plates reinforced by transverse stiffeners .
+Title: shear buckling of clamped and simply-supported infinitelylong plates reinforced by transverse stiffeners .
 
-cook,i.t. and rockey,k.c.
+Author: cook,i.t. and rockey,k.c.
 
-aero. quart. 13, 1962, 41.
+Bibliography: aero. quart. 13, 1962, 41.
 
-shear buckling of clamped and simply-supported infinitelylong plates reinforced by transverse stiffeners .  the paper presents a solution to the buckling of infinitely longplates clamped along the edges, together with an extension of thesolution obtained by stein and fralich for the case when the edges aresimply-supported .  it is shown that, as a consequence of increasing theedge support from that of a simple support to one in which bothdeflection and rotation are prevented, the rigidity which anintermediate transverse stiffener must possess in order to support theplate effectively is much reduced .  agreement between the theoreticalrelationships and existing experimental data is good .
+Text: shear buckling of clamped and simply-supported infinitelylong plates reinforced by transverse stiffeners .  the paper presents a solution to the buckling of infinitely longplates clamped along the edges, together with an extension of thesolution obtained by stein and fralich for the case when the edges aresimply-supported .  it is shown that, as a consequence of increasing theedge support from that of a simple support to one in which bothdeflection and rotation are prevented, the rigidity which anintermediate transverse stiffener must possess in order to support theplate effectively is much reduced .  agreement between the theoreticalrelationships and existing experimental data is good .

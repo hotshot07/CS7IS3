@@ -1,9 +1,9 @@
-69
+Id: 69
 
-predicted shock envelopes about two types of vehiclesat large angles of attack .
+Title: predicted shock envelopes about two types of vehiclesat large angles of attack .
 
-kaattari,g.e.
+Author: kaattari,g.e.
 
-nasa tn.d860, 1961.
+Bibliography: nasa tn.d860, 1961.
 
-predicted shock envelopes about two types of vehiclesat large angles of attack .  methods based on oblique- and normal-shock relationships and thecontinuity of mass flow through suitably chosen volume elements betweenthe shock and body were developed to predict shock envelopes about twotypes of vehicles being considered for atmosphere entry .  one type is ahigh-drag capsule shape .  the other type is essentially a slendertriangular wing capable of providing high lift or high drag, depending onthe angle of attack .  predicted and measured shock envelopes werecompared for a mach number range of 3 to 15 for vehicles at high angles ofattack,. good agreement was found .  most of the available experimentaldata were in a speed and temperature range in which no importantreal-gas effects occurred .
+Text: predicted shock envelopes about two types of vehiclesat large angles of attack .  methods based on oblique- and normal-shock relationships and thecontinuity of mass flow through suitably chosen volume elements betweenthe shock and body were developed to predict shock envelopes about twotypes of vehicles being considered for atmosphere entry .  one type is ahigh-drag capsule shape .  the other type is essentially a slendertriangular wing capable of providing high lift or high drag, depending onthe angle of attack .  predicted and measured shock envelopes werecompared for a mach number range of 3 to 15 for vehicles at high angles ofattack,. good agreement was found .  most of the available experimentaldata were in a speed and temperature range in which no importantreal-gas effects occurred .

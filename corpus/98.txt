@@ -1,9 +1,9 @@
-98
+Id: 98
 
-heat transfer by laminar flow to a rotating plate .
+Title: heat transfer by laminar flow to a rotating plate .
 
-millsaps,k. and pohlhausen,k.
+Author: millsaps,k. and pohlhausen,k.
 
-j. ae. scs. 19, 1952, 120.
+Bibliography: j. ae. scs. 19, 1952, 120.
 
-heat transfer by laminar flow to a rotating plate .  an exact solution of the heat-transfer problem for the vonkarman example of the laminar flow of a viscous fluid over arotating plate is given in dimensionless form and physicallydiscussed .  the solution is explicitly given for a constanttemperature on the plate with viscous dissipation included .  thenumerical results are given for prandtl numbers from 0.5 to 10 .
+Text: heat transfer by laminar flow to a rotating plate .  an exact solution of the heat-transfer problem for the vonkarman example of the laminar flow of a viscous fluid over arotating plate is given in dimensionless form and physicallydiscussed .  the solution is explicitly given for a constanttemperature on the plate with viscous dissipation included .  thenumerical results are given for prandtl numbers from 0.5 to 10 .

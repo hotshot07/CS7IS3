@@ -1,9 +1,9 @@
-398
+Id: 398
 
-heat transfer in turbulent shear flow .
+Title: heat transfer in turbulent shear flow .
 
-rannie,w.d.
+Author: rannie,w.d.
 
-j. ae. scs. 23, 1956.
+Bibliography: j. ae. scs. 23, 1956.
 
-heat transfer in turbulent shear flow .  the problems of heat transfer in turbulent shear flow along asmooth wall are discussed from the point of view of von karman'swell-known 1939 paper on the analogy between fluid friction andheat transfer .  methods for extending the analysis to higherprandtl numbers are suggested .
+Text: heat transfer in turbulent shear flow .  the problems of heat transfer in turbulent shear flow along asmooth wall are discussed from the point of view of von karman'swell-known 1939 paper on the analogy between fluid friction andheat transfer .  methods for extending the analysis to higherprandtl numbers are suggested .

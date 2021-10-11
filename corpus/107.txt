@@ -1,9 +1,9 @@
-107
+Id: 107
 
-on the mixing of two parallel streams .
+Title: on the mixing of two parallel streams .
 
-ting,lu.
+Author: ting,lu.
 
-j.math.phys. 38, 1959, 153.
+Bibliography: j.math.phys. 38, 1959, 153.
 
-on the mixing of two parallel streams .  using the techniques of boundary-layer theory, the proper thirdboundary condition for the mixing of two parallel streams isderived from the compatibility condition of the higher orderapproximation .  it is shown that the commonly adopted third boundarycondition of balancing of transverse momentum is correct only forthe mixing problem of two semi-infinite incompressible streams .for the fulfillment of the proper third boundary condition, thepossibility of introducing the similar solution of blasius type isexamined for various cases .
+Text: on the mixing of two parallel streams .  using the techniques of boundary-layer theory, the proper thirdboundary condition for the mixing of two parallel streams isderived from the compatibility condition of the higher orderapproximation .  it is shown that the commonly adopted third boundarycondition of balancing of transverse momentum is correct only forthe mixing problem of two semi-infinite incompressible streams .for the fulfillment of the proper third boundary condition, thepossibility of introducing the similar solution of blasius type isexamined for various cases .

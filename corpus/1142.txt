@@ -1,9 +1,9 @@
-1142
+Id: 1142
 
-effect of wall divergence on sonic flows in solid walltunnels .
+Title: effect of wall divergence on sonic flows in solid walltunnels .
 
-tirumalesa,d. and satyanarayana,b.
+Author: tirumalesa,d. and satyanarayana,b.
 
-j. roy. soc. 66, 1962, 125.
+Bibliography: j. roy. soc. 66, 1962, 125.
 
-effect of wall divergence on sonic flows in solid walltunnels .  the effect of wall divergence (in excess of the normalvalue given for compensating the boundary layer growthon the tunnel walls), on the simulation of sonic flows insolid wall wind tunnels is presented in this note which isa condensed version of ref. 1 .
+Text: effect of wall divergence on sonic flows in solid walltunnels .  the effect of wall divergence (in excess of the normalvalue given for compensating the boundary layer growthon the tunnel walls), on the simulation of sonic flows insolid wall wind tunnels is presented in this note which isa condensed version of ref. 1 .

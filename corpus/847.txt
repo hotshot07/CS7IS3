@@ -1,9 +1,9 @@
-847
+Id: 847
 
-experimental study of the vibrations of a circularcylindrical shell .
+Title: experimental study of the vibrations of a circularcylindrical shell .
 
-gottenberg,w.g.
+Author: gottenberg,w.g.
 
-j. acoust. soc. america, 32, 1960, 1002.
+Bibliography: j. acoust. soc. america, 32, 1960, 1002.
 
-experimental study of the vibrations of a circularcylindrical shell .  an apparatus is described which permits the modeshape of a vibrating circular cylindrical shell to beobtained quite easily .  these measurements are madewithout contacting the cylinder and can be convertedto actual lineal values .  a representative number ofresults obtained with such a system are shown toillustrate the relationship between the nodal pattern andfrequency in a cylinder as well as the effect of internalpressure on these frequencies .  finally, comparisonsare made between these results and timoshenko theoryand an appropriate shell theory .
+Text: experimental study of the vibrations of a circularcylindrical shell .  an apparatus is described which permits the modeshape of a vibrating circular cylindrical shell to beobtained quite easily .  these measurements are madewithout contacting the cylinder and can be convertedto actual lineal values .  a representative number ofresults obtained with such a system are shown toillustrate the relationship between the nodal pattern andfrequency in a cylinder as well as the effect of internalpressure on these frequencies .  finally, comparisonsare made between these results and timoshenko theoryand an appropriate shell theory .

@@ -1,9 +1,9 @@
-953
+Id: 953
 
-vibrations of infinitely long cylindrical shells underinitial stress .
+Title: vibrations of infinitely long cylindrical shells underinitial stress .
 
-armenakas,a.e.
+Author: armenakas,a.e.
 
-aiaa jnl. 1, 1963, 100.
+Bibliography: aiaa jnl. 1, 1963, 100.
 
-vibrations of infinitely long cylindrical shells underinitial stress .  the general bending theory of shells under the influence ofinitial stress presented recently by herrmann and armenakasis applied in this investigation to study the effect of initialuniform circumferential stress, uniform bending moment anduniform radial shear on the dynamic response of an infinitely longcylindrical shell .
+Text: vibrations of infinitely long cylindrical shells underinitial stress .  the general bending theory of shells under the influence ofinitial stress presented recently by herrmann and armenakasis applied in this investigation to study the effect of initialuniform circumferential stress, uniform bending moment anduniform radial shear on the dynamic response of an infinitely longcylindrical shell .

@@ -1,9 +1,9 @@
-910
+Id: 910
 
-natural frequencies of continuous beams of uniformspan length .
+Title: natural frequencies of continuous beams of uniformspan length .
 
-ayre,r.s. and jacobson,l.s.
+Author: ayre,r.s. and jacobson,l.s.
 
-j. app. mech. 17, 1950, 391.
+Bibliography: j. app. mech. 17, 1950, 391.
 
-natural frequencies of continuous beams of uniformspan length .  a simple graphical network is used to determine thenatural frequencies of flexural vibration of continuousbeams having any number of spans of uniform length .the network is based upon a relatively few calculatedvalues .
+Text: natural frequencies of continuous beams of uniformspan length .  a simple graphical network is used to determine thenatural frequencies of flexural vibration of continuousbeams having any number of spans of uniform length .the network is based upon a relatively few calculatedvalues .

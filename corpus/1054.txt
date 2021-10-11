@@ -1,9 +1,9 @@
-1054
+Id: 1054
 
-iterative solutions for the non-linear bending of circularplates .
+Title: iterative solutions for the non-linear bending of circularplates .
 
-keller,h.b. and reiss,e.l.
+Author: keller,h.b. and reiss,e.l.
 
-comm. on pure and app. math. 11, 1958, 273.
+Bibliography: comm. on pure and app. math. 11, 1958, 273.
 
-iterative solutions for the non-linear bending of circularplates .  the authors study non-linear von karman equationsfor bending of a thin circular plate under uniform normalpressure .  discussion is mainly concerned with platesclamped at the edges and with zero radial displacement,but analysis is valid for other edge conditions .  solution isby an iterative procedure whose convergence propertiesare studied by means of integral equations .  method isthen applied to finite difference formulation of thedifferential equations in order to obtain numerical solutions .numerical results are compared with previous work byother authors and the advantages of the present methodare indicated .
+Text: iterative solutions for the non-linear bending of circularplates .  the authors study non-linear von karman equationsfor bending of a thin circular plate under uniform normalpressure .  discussion is mainly concerned with platesclamped at the edges and with zero radial displacement,but analysis is valid for other edge conditions .  solution isby an iterative procedure whose convergence propertiesare studied by means of integral equations .  method isthen applied to finite difference formulation of thedifferential equations in order to obtain numerical solutions .numerical results are compared with previous work byother authors and the advantages of the present methodare indicated .

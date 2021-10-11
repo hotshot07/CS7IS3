@@ -1,9 +1,9 @@
-240
+Id: 240
 
-a theoretical analysis of heat transfer in regions of separated flow .
+Title: a theoretical analysis of heat transfer in regions of separated flow .
 
-dean r. chapman
+Author: dean r. chapman
 
-naca technote 3792
+Bibliography: naca technote 3792
 
-a theoretical analysis of heat transfer in regions of separated flow .    the flow field analyzed consists of a thin, constant pressureviscous mixing layer separated from a solid surface by an enclosedregion of low-velocity air (/dead air/) . the law of conservation ofenergy is employed to relate calculated conditions within theseparated mixing layer to the rate of heat transfer at the solidsurface . this physical speed is app ied to alminar separations incompressible flow for various prandtl numbers, including considerationof the case where air is injected into the separated region  .
+Text: a theoretical analysis of heat transfer in regions of separated flow .    the flow field analyzed consists of a thin, constant pressureviscous mixing layer separated from a solid surface by an enclosedregion of low-velocity air (/dead air/) . the law of conservation ofenergy is employed to relate calculated conditions within theseparated mixing layer to the rate of heat transfer at the solidsurface . this physical speed is app ied to alminar separations incompressible flow for various prandtl numbers, including considerationof the case where air is injected into the separated region  .

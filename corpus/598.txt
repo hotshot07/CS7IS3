@@ -1,9 +1,9 @@
-598
+Id: 598
 
-new test techniques for a hypervelocity wind tunnel .
+Title: new test techniques for a hypervelocity wind tunnel .
 
-stalmach, c.j. and cooksey, j.m.
+Author: stalmach, c.j. and cooksey, j.m.
 
-aerospace engineering. vol. 21. march 1962 .
+Bibliography: aerospace engineering. vol. 21. march 1962 .
 
-new test techniques for a hypervelocity wind tunnel .the measurement of rocket exhaust effects on vehicle stability and themeasurement of aerodynamic damping were made in an arc-discharge type of hypervelocity wind tunnel . sample data are given to indicate thequality of data obtainable in this tunnel, and samples of self-luminousand shadowgraph photographs are also presented .
+Text: new test techniques for a hypervelocity wind tunnel .the measurement of rocket exhaust effects on vehicle stability and themeasurement of aerodynamic damping were made in an arc-discharge type of hypervelocity wind tunnel . sample data are given to indicate thequality of data obtainable in this tunnel, and samples of self-luminousand shadowgraph photographs are also presented .

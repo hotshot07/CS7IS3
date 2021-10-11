@@ -1,9 +1,9 @@
-313
+Id: 313
 
-on alternative forms for the basic equations of transonicflow theory .
+Title: on alternative forms for the basic equations of transonicflow theory .
 
-spreiter,j.r.
+Author: spreiter,j.r.
 
-j. ae. scs. 21, 1954.
+Bibliography: j. ae. scs. 21, 1954.
 
-on alternative forms for the basic equations of transonicflow theory .attention has been called by numerous authors to thepossibility of certain alternative forms for the equations fortransonic flow about thin wings .  it is the purpose of this noteto contribute to this discussion and to indicate some reasons forthe selection of one form of these in preference to another morewidely used form .
+Text: on alternative forms for the basic equations of transonicflow theory .attention has been called by numerous authors to thepossibility of certain alternative forms for the equations fortransonic flow about thin wings .  it is the purpose of this noteto contribute to this discussion and to indicate some reasons forthe selection of one form of these in preference to another morewidely used form .

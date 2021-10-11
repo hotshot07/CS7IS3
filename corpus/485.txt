@@ -1,9 +1,9 @@
-485
+Id: 485
 
-linear heat flow in a composite slab .
+Title: linear heat flow in a composite slab .
 
-reid,w.p.
+Author: reid,w.p.
 
-j.ae.scs. 29, 1962.
+Bibliography: j.ae.scs. 29, 1962.
 
-linear heat flow in a composite slab .  the temperature is determined as a function of position andtime in the case of linear heat conduction in a composite slab ofture throughout, and the two external surface temperatures areconsidered to be prescribed functions .
+Text: linear heat flow in a composite slab .  the temperature is determined as a function of position andtime in the case of linear heat conduction in a composite slab ofture throughout, and the two external surface temperatures areconsidered to be prescribed functions .

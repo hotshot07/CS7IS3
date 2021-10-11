@@ -1,9 +1,9 @@
-336
+Id: 336
 
-simplified laminar boundary layer calculations forbodies of revolution and for yawed wings .
+Title: simplified laminar boundary layer calculations forbodies of revolution and for yawed wings .
 
-rott,n. and crabtree,l.f.
+Author: rott,n. and crabtree,l.f.
 
-j. ae. scs. 19, 1962.
+Bibliography: j. ae. scs. 19, 1962.
 
-simplified laminar boundary layer calculations forbodies of revolution and for yawed wings .  since the introduction of momentum methods inboundary-layer calculations by von karman and pohlhausen, manyimprovements have been proposed .  an especially simple solutionreduces the problem to a quadrature .  here, it is proposed toextend these methods to elementary three-dimensional cases and tocompressible laminar boundary-layer calculations .  forcomparison, the corresponding problems for the turbulent boundarylayer are also discussed briefly .
+Text: simplified laminar boundary layer calculations forbodies of revolution and for yawed wings .  since the introduction of momentum methods inboundary-layer calculations by von karman and pohlhausen, manyimprovements have been proposed .  an especially simple solutionreduces the problem to a quadrature .  here, it is proposed toextend these methods to elementary three-dimensional cases and tocompressible laminar boundary-layer calculations .  forcomparison, the corresponding problems for the turbulent boundarylayer are also discussed briefly .

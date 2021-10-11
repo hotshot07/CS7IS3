@@ -1,9 +1,9 @@
-1067
+Id: 1067
 
-plastic stability theory of geometrically orthotropicplates and cylindrical shells .
+Title: plastic stability theory of geometrically orthotropicplates and cylindrical shells .
 
-gerard,g.
+Author: gerard,g.
 
-j. ae. scs. 29, 1962, 956.
+Bibliography: j. ae. scs. 29, 1962, 956.
 
-plastic stability theory of geometrically orthotropicplates and cylindrical shells .  a linear eighth-order equilibrium differential equation forplastic buckling of geometrically orthotropic thin cylindricalshells is derived .  this equation is used to obtain explicitsolutions for long flat plates and wide columns under axialcompression and moderate-length cylinders under external pressure,torsion, and axial compression .
+Text: plastic stability theory of geometrically orthotropicplates and cylindrical shells .  a linear eighth-order equilibrium differential equation forplastic buckling of geometrically orthotropic thin cylindricalshells is derived .  this equation is used to obtain explicitsolutions for long flat plates and wide columns under axialcompression and moderate-length cylinders under external pressure,torsion, and axial compression .

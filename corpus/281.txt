@@ -1,9 +1,9 @@
-281
+Id: 281
 
-higher order approximations for relaxation oscillations .
+Title: higher order approximations for relaxation oscillations .
 
+Author: 
 
+Bibliography: 
 
-
-
-higher order approximations for relaxation oscillations .the problem of solving asymptotic developments for all quantitiesinvolved in relaxation oscillations has been solved by haag .  thispaper indicates how one can carry out such developments in a casewhich is simple enough to be treated explicitly .
+Text: higher order approximations for relaxation oscillations .the problem of solving asymptotic developments for all quantitiesinvolved in relaxation oscillations has been solved by haag .  thispaper indicates how one can carry out such developments in a casewhich is simple enough to be treated explicitly .

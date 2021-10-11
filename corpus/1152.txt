@@ -1,9 +1,9 @@
-1152
+Id: 1152
 
-on periodically oscillating wakes in the oseen approximation .
+Title: on periodically oscillating wakes in the oseen approximation .
 
-lin,c.c.
+Author: lin,c.c.
 
-studies in maths . and mechs .,presented to r.von mises, p 170, academic press, 1954.
+Bibliography: studies in maths . and mechs .,presented to r.von mises, p 170, academic press, 1954.
 
-on periodically oscillating wakes in the oseen approximation . studies in maths . and mechs .,  the oscillating vortex wake behind an obstacle atreynolds numbers of order 10 is studied by means of theoseen approximation .
+Text: on periodically oscillating wakes in the oseen approximation . studies in maths . and mechs .,  the oscillating vortex wake behind an obstacle atreynolds numbers of order 10 is studied by means of theoseen approximation .

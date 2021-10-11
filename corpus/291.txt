@@ -1,9 +1,9 @@
-291
+Id: 291
 
-sweepback effects in the turbulent boundary-layer shock-waveinteraction .
+Title: sweepback effects in the turbulent boundary-layer shock-waveinteraction .
 
-stalker,r.j.
+Author: stalker,r.j.
 
-j. ae. scs. 27, 1960.
+Bibliography: j. ae. scs. 27, 1960.
 
-sweepback effects in the turbulent boundary-layer shock-waveinteraction .  experiments are reported on the interaction of turbulentboundary layers and shock waves with sweptback configurations .they show that the peak pressure rise at separation, theupstream influence ahead of separation, and the pressure rise atreattachment for moderate sweep angles can all be understood bysimple extensions of available two-dimensional theories .
+Text: sweepback effects in the turbulent boundary-layer shock-waveinteraction .  experiments are reported on the interaction of turbulentboundary layers and shock waves with sweptback configurations .they show that the peak pressure rise at separation, theupstream influence ahead of separation, and the pressure rise atreattachment for moderate sweep angles can all be understood bysimple extensions of available two-dimensional theories .

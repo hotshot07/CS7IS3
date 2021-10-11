@@ -1,9 +1,9 @@
-254
+Id: 254
 
-boundary layers with suction and injection . a reviewof published work on skin friction .
+Title: boundary layers with suction and injection . a reviewof published work on skin friction .
 
-craven,a.h.
+Author: craven,a.h.
 
-coa r136.
+Bibliography: coa r136.
 
-boundary layers with suction and injection . a reviewof published work on skin friction .  available data on the effects of suction and injection on skinfriction are summarised and compared .  it is shown that injection into a turbulent boundary layer canproduce a skin friction coefficient lower than the laminar value at thesame reynolds number on an impermeable plate .
+Text: boundary layers with suction and injection . a reviewof published work on skin friction .  available data on the effects of suction and injection on skinfriction are summarised and compared .  it is shown that injection into a turbulent boundary layer canproduce a skin friction coefficient lower than the laminar value at thesame reynolds number on an impermeable plate .

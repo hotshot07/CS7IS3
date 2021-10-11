@@ -1,9 +1,9 @@
-769
+Id: 769
 
-local circumferential buckling of thin circular cylindricalshells .
+Title: local circumferential buckling of thin circular cylindricalshells .
 
-johns,d.j.
+Author: johns,d.j.
 
-nasa tn.d1510, 1962, 267.
+Bibliography: nasa tn.d1510, 1962, 267.
 
-local circumferential buckling of thin circular cylindricalshells .  the problem of circumferentialbuckling of a thin circularcylindrical shell due to compressivehoop stresses which vary in the axialdirection is examined .  forextremely localised compressive hoop stressdistributions resulting fromthermal discontinuity effects, or from auniform, radial line loading,the buckle pattern should also belocalised .  simplified analysesinto these two types of problem areconsidered which show that onlya limited number of buckle deflectionmodes needs to be assumed .
+Text: local circumferential buckling of thin circular cylindricalshells .  the problem of circumferentialbuckling of a thin circularcylindrical shell due to compressivehoop stresses which vary in the axialdirection is examined .  forextremely localised compressive hoop stressdistributions resulting fromthermal discontinuity effects, or from auniform, radial line loading,the buckle pattern should also belocalised .  simplified analysesinto these two types of problem areconsidered which show that onlya limited number of buckle deflectionmodes needs to be assumed .

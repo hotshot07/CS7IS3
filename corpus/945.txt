@@ -1,9 +1,9 @@
-945
+Id: 945
 
-method for design of pump impellers using a high speeddigital computer .
+Title: method for design of pump impellers using a high speeddigital computer .
 
-stockman,n.o. and kramer,j.l.
+Author: stockman,n.o. and kramer,j.l.
 
-nasa tn.d1562, 1963.
+Bibliography: nasa tn.d1562, 1963.
 
-method for design of pump impellers using a high speeddigital computer .  a method of designing pump impellersis derived from the equations of motionand continuity for incompressible nonviscousrelative flow .  the flow is assumedto follow a known stream surface (representingblade shape) that extends from hubto shroud .  equations are also derived forapproximate blade-surface velocitiesand pressures .  a detailed numerical procedureand block diagram are given foruse on a digital computer .  a numerical examplethat illustrates limited use ofthe method is presented and further uses areindicated .
+Text: method for design of pump impellers using a high speeddigital computer .  a method of designing pump impellersis derived from the equations of motionand continuity for incompressible nonviscousrelative flow .  the flow is assumedto follow a known stream surface (representingblade shape) that extends from hubto shroud .  equations are also derived forapproximate blade-surface velocitiesand pressures .  a detailed numerical procedureand block diagram are given foruse on a digital computer .  a numerical examplethat illustrates limited use ofthe method is presented and further uses areindicated .

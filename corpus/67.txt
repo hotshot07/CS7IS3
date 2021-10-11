@@ -1,9 +1,9 @@
-67
+Id: 67
 
-dynamic stability of vehicles traversing ascendingor descending paths through the atmosphere .
+Title: dynamic stability of vehicles traversing ascendingor descending paths through the atmosphere .
 
-tobak and allen.
+Author: tobak and allen.
 
-naca tn.4275, 1958.
+Bibliography: naca tn.4275, 1958.
 
-dynamic stability of vehicles traversing ascendingor descending paths through the atmosphere .  an analysis is given of the oscillatory motions of vehicles whichtraverse ascending and descending paths through the atmosphere at highspeed .  the specific case of a skip path is examined in detail, andthis leads to a form of solution for the oscillatory motion which shouldrecur over any trajectory .  the distinguishing feature of this form isthe appearance of the bessel rather than the trigonometric function asthe characteristic mode of oscillation .
+Text: dynamic stability of vehicles traversing ascendingor descending paths through the atmosphere .  an analysis is given of the oscillatory motions of vehicles whichtraverse ascending and descending paths through the atmosphere at highspeed .  the specific case of a skip path is examined in detail, andthis leads to a form of solution for the oscillatory motion which shouldrecur over any trajectory .  the distinguishing feature of this form isthe appearance of the bessel rather than the trigonometric function asthe characteristic mode of oscillation .

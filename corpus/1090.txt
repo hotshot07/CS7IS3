@@ -1,9 +1,9 @@
-1090
+Id: 1090
 
-pressure distribution and force measurements on a vtoltilting wing-propeller model . pt .ii, analysis ofresults .
+Title: pressure distribution and force measurements on a vtoltilting wing-propeller model . pt .ii, analysis ofresults .
 
-currie,m.m. and dunsby,j.a.
+Author: currie,m.m. and dunsby,j.a.
 
-rep. lr-284, nat. res. council of canada, 1960.
+Bibliography: rep. lr-284, nat. res. council of canada, 1960.
 
-pressure distribution and force measurements on a vtoltilting wing-propeller model . pt .ii, analysis ofresults .  this report presents in graphicalform the results presented inreference 1 from pressure distribution and forcemeasurements on a half-wing modelof a twin-engined tilt-wing vtol configuration .the profound influence of theslipstream on these results is discussed in somedetail .
+Text: pressure distribution and force measurements on a vtoltilting wing-propeller model . pt .ii, analysis ofresults .  this report presents in graphicalform the results presented inreference 1 from pressure distribution and forcemeasurements on a half-wing modelof a twin-engined tilt-wing vtol configuration .the profound influence of theslipstream on these results is discussed in somedetail .

@@ -1,9 +1,9 @@
-633
+Id: 633
 
-an extension of the method of generalised conical flowsfor lifting wings in supersonic flow .
+Title: an extension of the method of generalised conical flowsfor lifting wings in supersonic flow .
 
-portnoy,h.
+Author: portnoy,h.
 
-rae tn. aero.2849, 1962.
+Bibliography: rae tn. aero.2849, 1962.
 
-an extension of the method of generalised conical flowsfor lifting wings in supersonic flow .  the method of generalised conicalflows has previously been developedsubject to the condition that theupwash divided by the streamwiseco-ordinate to the power k, wherek is the order of the conical flow, musthave vanishing (k+1)th derivativewith respect to the conical co-ordinate .  in the present note this restriction is removed .  the results are also used todiscuss the effect of the application ofthe leading edge attachment conditionon the wing pressure and geometry .
+Text: an extension of the method of generalised conical flowsfor lifting wings in supersonic flow .  the method of generalised conicalflows has previously been developedsubject to the condition that theupwash divided by the streamwiseco-ordinate to the power k, wherek is the order of the conical flow, musthave vanishing (k+1)th derivativewith respect to the conical co-ordinate .  in the present note this restriction is removed .  the results are also used todiscuss the effect of the application ofthe leading edge attachment conditionon the wing pressure and geometry .

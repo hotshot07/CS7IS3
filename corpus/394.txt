@@ -1,9 +1,9 @@
-394
+Id: 394
 
-the viscous flow near a stagnation point when the external flow hasuniform vorticity .
+Title: the viscous flow near a stagnation point when the external flow hasuniform vorticity .
 
-j. t. stuart
+Author: j. t. stuart
 
-national physical laboratory, teddington, middlesex, england
+Bibliography: national physical laboratory, teddington, middlesex, england
 
-the viscous flow near a stagnation point when the external flow hasuniform vorticity .in view of the recent controversy between li and glauert on the natureof the solution of the boundary-layer equations when the externalflow is rotational, it seems worthwhile to draw attention to a certainexact solution of the navier-stokes equations which lends support toglauert's point of view .
+Text: the viscous flow near a stagnation point when the external flow hasuniform vorticity .in view of the recent controversy between li and glauert on the natureof the solution of the boundary-layer equations when the externalflow is rotational, it seems worthwhile to draw attention to a certainexact solution of the navier-stokes equations which lends support toglauert's point of view .

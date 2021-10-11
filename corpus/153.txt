@@ -1,9 +1,9 @@
-153
+Id: 153
 
-on the steady motion of viscous, incompressible fluids,with particular reference to a variation principle .
+Title: on the steady motion of viscous, incompressible fluids,with particular reference to a variation principle .
 
-millikan,c.b.
+Author: millikan,c.b.
 
-phil.mag. 7, 1929, 641.
+Bibliography: phil.mag. 7, 1929, 641.
 
-on the steady motion of viscous, incompressible fluids,with particular reference to a variation principle .  except in exceptional cases, it is not possible to represent themotion of a viscous incompressible liquid by means of a variationprinciple, but all cases of such motion that have yet been discoveredbelong to this class of /exceptional cases ./  the appropriate functionsare given .
+Text: on the steady motion of viscous, incompressible fluids,with particular reference to a variation principle .  except in exceptional cases, it is not possible to represent themotion of a viscous incompressible liquid by means of a variationprinciple, but all cases of such motion that have yet been discoveredbelong to this class of /exceptional cases ./  the appropriate functionsare given .
