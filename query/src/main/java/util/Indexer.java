@@ -1,4 +1,4 @@
-package indexer;
+package util;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.document.Document;
@@ -39,15 +39,13 @@ public class Indexer {
     return listToModify;
   }
 
-  private void createDir(){
+  private void createDir() {
     boolean indexDirectory = new File(INDEX_DIR).mkdir();
   }
 
   public void createIndex() throws IOException {
     createDir();
     // Analyzer analyzer = new EnglishAnalyzer(EnglishAnalyzer.getDefaultStopSet());
-
-    // Analyzer analyzer = new SimpleAnalyzer();
 
     ArrayList<Document> documents = new ArrayList<Document>();
 
@@ -84,7 +82,7 @@ public class Indexer {
     }
 
     iwriter.addDocuments(documents);
-    System.out.format("Indexed %s documents", documents.size());
+    System.out.format("Indexed %s documents. ", documents.size());
 
     iwriter.close();
     directory.close();

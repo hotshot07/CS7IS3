@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="query:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/query_jar</output-path>
+    <root id="archive" name="query.jar">
+      <element id="module-output" name="query" />
+      <element id="module-output" name="parser" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/lucene/lucene-queries/8.6.3/lucene-queries-8.6.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/lucene/lucene-analyzers-common/8.6.3/lucene-analyzers-common-8.6.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/lucene/lucene-queryparser/8.6.3/lucene-queryparser-8.6.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/lucene/lucene-sandbox/8.6.3/lucene-sandbox-8.6.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/8.6.3/lucene-core-8.6.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

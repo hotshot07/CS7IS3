@@ -1,15 +1,17 @@
-import indexer.Indexer;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.core.SimpleAnalyzer;
+import org.apache.lucene.analysis.en.EnglishAnalyzer;
 import org.apache.lucene.analysis.standard.ClassicAnalyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.search.similarities.*;
+import util.Indexer;
 import util.QueryUtil;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
 public class Querier {
@@ -20,12 +22,13 @@ public class Querier {
     analysers.add(new SimpleAnalyzer());
     analysers.add(new StandardAnalyzer());
     analysers.add(new ClassicAnalyzer());
+    analysers.add(new EnglishAnalyzer(EnglishAnalyzer.getDefaultStopSet()));
 
     similarities.add(new BM25Similarity());
     similarities.add(new BooleanSimilarity());
+    similarities.add(new ClassicSimilarity());
     similarities.add(
         new MultiSimilarity(new Similarity[] {new BM25Similarity(), new ClassicSimilarity()}));
-    similarities.add(new ClassicSimilarity());
 
     for (Analyzer analyser : analysers) {
       for (Similarity similarity : similarities) {
@@ -33,9 +36,10 @@ public class Querier {
         indexer.createIndex();
         System.out.println(
             "Created index for "
-                + analyser.getClass().getSimpleName()
+                + analyser.getClass().getSimpleName().toLowerCase(Locale.ROOT)
                 + "with"
-                + similarity.getClass().getSimpleName());
+                + similarity.getClass().getSimpleName().toLowerCase(Locale.ROOT)
+                + "\n");
 
         TimeUnit.SECONDS.sleep(3);
 

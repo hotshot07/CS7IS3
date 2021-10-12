@@ -7,6 +7,11 @@
         <option value="$PROJECT_DIR$/query/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/indexer/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK_11.0.8+10" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
