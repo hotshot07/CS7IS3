@@ -9,7 +9,7 @@ public class DocumentParser {
   private final String file;
 
   public DocumentParser(String fileToRead) {
-    file = fileToRead;
+    this.file = fileToRead;
   }
 
   public void ParseDocument() throws IOException {

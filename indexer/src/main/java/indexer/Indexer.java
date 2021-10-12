@@ -1,14 +1,13 @@
 package indexer;
 
 import org.apache.lucene.analysis.Analyzer;
-import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.document.StringField;
 import org.apache.lucene.document.TextField;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
-import org.apache.lucene.search.similarities.BM25Similarity;
+import org.apache.lucene.search.similarities.Similarity;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 
@@ -23,18 +22,32 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 
 public class Indexer {
-  public static String INDEX_DIR = "index";
+  public static final String INDEX_DIR = "index";
+  private final Analyzer analyzer;
+  private final Similarity similarity;
 
-  public static void main(String[] args) throws IOException {
-    boolean indexDirectory = new File(INDEX_DIR).mkdir();
-    writeToIndex();
+  public Indexer(Analyzer analyzer, Similarity similarity) {
+    this.analyzer = analyzer;
+    this.similarity = similarity;
   }
 
-  private static void writeToIndex() throws IOException {
+  private List<String> modifyList(List<String> listToModify) {
+    int i;
+    for (i = 0; i < listToModify.size(); i++) {
+      listToModify.set(i, listToModify.get(i).replaceAll("\\w+:", ""));
+    }
+    return listToModify;
+  }
+
+  private void createDir(){
+    boolean indexDirectory = new File(INDEX_DIR).mkdir();
+  }
+
+  public void createIndex() throws IOException {
+    createDir();
     // Analyzer analyzer = new EnglishAnalyzer(EnglishAnalyzer.getDefaultStopSet());
 
     // Analyzer analyzer = new SimpleAnalyzer();
-    Analyzer analyzer = new StandardAnalyzer();
 
     ArrayList<Document> documents = new ArrayList<Document>();
 
@@ -42,7 +55,7 @@ public class Indexer {
 
     IndexWriterConfig config = new IndexWriterConfig(analyzer);
     config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
-    config.setSimilarity(new BM25Similarity());
+    config.setSimilarity(similarity);
 
     IndexWriter iwriter = new IndexWriter(directory, config);
 
@@ -75,13 +88,5 @@ public class Indexer {
 
     iwriter.close();
     directory.close();
-  }
-
-  private static List<String> modifyList(List<String> listToModify) {
-    int i;
-    for (i = 0; i < listToModify.size(); i++) {
-      listToModify.set(i, listToModify.get(i).replaceAll("\\w+:", ""));
-    }
-    return listToModify;
   }
 }
