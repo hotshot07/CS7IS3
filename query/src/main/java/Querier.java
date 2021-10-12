@@ -15,15 +15,15 @@ import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
 public class Querier {
-  static List<Analyzer> analysers = new ArrayList<>();
-  static List<Similarity> similarities = new ArrayList<>();
 
   public static void main(String[] args) throws IOException, InterruptedException, ParseException {
+    List<Analyzer> analysers = new ArrayList<>();
     analysers.add(new SimpleAnalyzer());
     analysers.add(new StandardAnalyzer());
     analysers.add(new ClassicAnalyzer());
     analysers.add(new EnglishAnalyzer(EnglishAnalyzer.getDefaultStopSet()));
 
+    List<Similarity> similarities = new ArrayList<>();
     similarities.add(new BM25Similarity());
     similarities.add(new BooleanSimilarity());
     similarities.add(new ClassicSimilarity());
@@ -35,11 +35,10 @@ public class Querier {
         Indexer indexer = new Indexer(analyser, similarity);
         indexer.createIndex();
         System.out.println(
-            "Created index for "
+            "Created index with "
                 + analyser.getClass().getSimpleName().toLowerCase(Locale.ROOT)
-                + "with"
-                + similarity.getClass().getSimpleName().toLowerCase(Locale.ROOT)
-                + "\n");
+                + " and "
+                + similarity.getClass().getSimpleName().toLowerCase(Locale.ROOT));
 
         TimeUnit.SECONDS.sleep(3);
 
