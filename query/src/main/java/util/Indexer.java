@@ -31,14 +31,6 @@ public class Indexer {
     this.similarity = similarity;
   }
 
-  private List<String> modifyList(List<String> listToModify) {
-    int i;
-    for (i = 0; i < listToModify.size(); i++) {
-      listToModify.set(i, listToModify.get(i).replaceAll("\\w+:", ""));
-    }
-    return listToModify;
-  }
-
   private void createDir() {
     boolean indexDirectory = new File(INDEX_DIR).mkdir();
   }
@@ -52,6 +44,8 @@ public class Indexer {
 
     IndexWriterConfig config = new IndexWriterConfig(analyzer);
     config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
+    config.setSimilarity(similarity);
+    config.setRAMBufferSizeMB(512);
 
     IndexWriter iwriter = new IndexWriter(directory, config);
 
@@ -84,5 +78,13 @@ public class Indexer {
 
     iwriter.close();
     directory.close();
+  }
+
+  private List<String> modifyList(List<String> listToModify) {
+    int i;
+    for (i = 0; i < listToModify.size(); i++) {
+      listToModify.set(i, listToModify.get(i).replaceAll("\\w+:", ""));
+    }
+    return listToModify;
   }
 }

@@ -18,6 +18,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Paths;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Locale;
 import java.util.Map;
@@ -52,9 +53,15 @@ public class QueryUtil {
 
     BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
 
+    HashMap<String, Float> score_booster = new HashMap<String, Float>();
+    score_booster.put("title", 0.65f);
+    score_booster.put("author", 0.06f);
+    score_booster.put("bibliography", 0.03f);
+    score_booster.put("text", 0.95f);
+
     QueryParser queryParser =
         new MultiFieldQueryParser(
-            new String[] {"title", "author", "bibliography", "text"}, analyzer);
+            new String[] {"title", "author", "bibliography", "text"}, analyzer, score_booster);
 
     QueryParserUtil queryParserUtil = new QueryParserUtil("data/cran/cran.qry");
     LinkedHashMap<Integer, String> queries = queryParserUtil.ParseQuery();
