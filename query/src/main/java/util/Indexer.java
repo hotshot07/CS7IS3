@@ -45,7 +45,6 @@ public class Indexer {
 
   public void createIndex() throws IOException {
     createDir();
-    // Analyzer analyzer = new EnglishAnalyzer(EnglishAnalyzer.getDefaultStopSet());
 
     ArrayList<Document> documents = new ArrayList<Document>();
 
@@ -53,7 +52,6 @@ public class Indexer {
 
     IndexWriterConfig config = new IndexWriterConfig(analyzer);
     config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
-    config.setSimilarity(similarity);
 
     IndexWriter iwriter = new IndexWriter(directory, config);
 
