@@ -1,4 +1,4 @@
-echo '
+printf '
   /$$$$$$                     /$$                                                         /$$             /$$
  /$$__  $$                   |__/                                                        | $$           /$$$$
 | $$  \ $$  /$$$$$$$ /$$$$$$$ /$$  /$$$$$$  /$$$$$$$  /$$$$$$/$$$$   /$$$$$$  /$$$$$$$  /$$$$$$        |_  $$
@@ -36,7 +36,7 @@ echo '
 
 sleep 1;
 
-echo '\n Running mvn clean and package \n'
+printf " Running mvn clean and package "
 
 mvn clean;
 
@@ -44,21 +44,21 @@ mvn package;
 
 sleep 1;
 
-echo '\n Executing Parser JAR \n'
+printf " Executing Parser JAR "
 
 java -jar parser/target/parser-1.0-SNAPSHOT.jar
 
 sleep 1;
 
-echo '\n Executing Querier JAR \n'
+printf " Executing Querier JAR \n"
 
 java -jar query/target/query-1.0-SNAPSHOT-shaded.jar
 
-echo '\n Mean Average Precision scores \n'
+printf " Mean Average Precision scores "
 
 for entry in "Results"/*
  do
-   echo "$entry"
+   printf "$entry"
    ./trec_eval/trec_eval -m map data/cran/QRelsCorrectedforTRECeval "$entry"
    printf "\n"
  done
