@@ -55,6 +55,7 @@ public class Indexer {
             .collect(Collectors.toList());
 
     for (Path path : pathToFilesInFolder) {
+
       Scanner scanner = new Scanner(path).useDelimiter("\n+");
       List<String> originalList = new ArrayList<>();
       while (scanner.hasNext()) {
@@ -62,7 +63,6 @@ public class Indexer {
       }
 
       List<String> modifiedList = modifyList(originalList);
-
       Document doc = new Document();
       doc.add(new StringField("id", modifiedList.get(0), Field.Store.YES));
       doc.add(new TextField("title", modifiedList.get(1), Field.Store.YES));
@@ -81,8 +81,7 @@ public class Indexer {
   }
 
   private List<String> modifyList(List<String> listToModify) {
-    int i;
-    for (i = 0; i < listToModify.size(); i++) {
+    for (int i = 0; i < listToModify.size(); i++) {
       listToModify.set(i, listToModify.get(i).replaceAll("\\w+:", ""));
     }
     return listToModify;

@@ -28,11 +28,20 @@ public class QueryUtil {
   private final int max_results;
   private final Analyzer analyzer;
   private final Similarity similarity;
+  private String filenameAddon = "";
 
   public QueryUtil(Analyzer analyzer, Similarity similarity, int max_results) {
     this.analyzer = analyzer;
     this.similarity = similarity;
     this.max_results = max_results;
+  }
+
+  public QueryUtil(
+      Analyzer analyzer, Similarity similarity, int max_results, String filenameAddon) {
+    this.analyzer = analyzer;
+    this.similarity = similarity;
+    this.max_results = max_results;
+    this.filenameAddon = filenameAddon;
   }
 
   public void runQuery() throws IOException, ParseException {
@@ -49,15 +58,16 @@ public class QueryUtil {
         "Results/results_"
             + analyzer.getClass().getSimpleName().toLowerCase(Locale.ROOT)
             + "_"
-            + similarity.getClass().getSimpleName().toLowerCase(Locale.ROOT);
+            + similarity.getClass().getSimpleName().toLowerCase(Locale.ROOT)
+            + filenameAddon;
 
     BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
 
     HashMap<String, Float> score_booster = new HashMap<String, Float>();
-    score_booster.put("title", 0.65f);
-    score_booster.put("author", 0.06f);
+    score_booster.put("title", 0.6f);
+    score_booster.put("author", 0.03f);
     score_booster.put("bibliography", 0.03f);
-    score_booster.put("text", 0.95f);
+    score_booster.put("text", 1f);
 
     QueryParser queryParser =
         new MultiFieldQueryParser(
