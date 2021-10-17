@@ -51,7 +51,7 @@ public class QueryUtil {
     this.filenameAddon = filenameAddon;
   }
 
-  public void runQuery() throws IOException, ParseException {
+  public void runQuery() throws IOException, ParseException, org.json.simple.parser.ParseException {
 
     createDir();
 

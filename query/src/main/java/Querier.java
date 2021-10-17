@@ -18,7 +18,9 @@ import static util.Utils.getStopWords;
 
 public class Querier {
 
-  public static void main(String[] args) throws IOException, InterruptedException, ParseException {
+  public static void main(String[] args)
+      throws IOException, InterruptedException, ParseException,
+          org.json.simple.parser.ParseException {
     List<Analyzer> analysers = new ArrayList<>();
     //    analysers.add(new SimpleAnalyzer());
     //    analysers.add(new StandardAnalyzer(getStopWords()));
