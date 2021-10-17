@@ -85,7 +85,7 @@ public class QueryUtil {
     booster.put("title", 0.50f);
     booster.put("author", 0.04f);
     booster.put("bibliography", 0.03f);
-    booster.put("text", 0.95f);
+    booster.put("text", 1f);
 
     QueryParser queryParser =
         new MultiFieldQueryParser(
