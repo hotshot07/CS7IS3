@@ -47,11 +47,11 @@ sleep 1;
 
 printf " Executing Parser JAR "
 
-java -jar parser/target/parser-1.0-SNAPSHOT.jar
+#java -jar parser/target/parser-1.0-SNAPSHOT.jar
 
 sleep 1;
 
-printf " Executing Querier JAR \n"
+printf " Executing Querier JAR "
 
 java -jar query/target/query-1.0-SNAPSHOT-shaded.jar
 
@@ -59,7 +59,7 @@ printf " Mean Average Precision scores "
 
 for entry in "Results"/*
  do
-   printf "$entry"
+   printf "%s\n" "$entry"
    ./trec_eval/trec_eval -m map data/cran/QRelsCorrectedforTRECeval "$entry"
    printf "\n"
  done

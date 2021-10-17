@@ -23,12 +23,15 @@ import java.util.LinkedHashMap;
 import java.util.Locale;
 import java.util.Map;
 
+import static util.Utils.replacePunctuation;
+
 public class QueryUtil {
   private static String INDEX_DIRECTORY = "index";
   private final int max_results;
   private final Analyzer analyzer;
   private final Similarity similarity;
   private String filenameAddon = "";
+  private HashMap<String, Float> booster;
 
   public QueryUtil(Analyzer analyzer, Similarity similarity, int max_results) {
     this.analyzer = analyzer;
@@ -37,7 +40,11 @@ public class QueryUtil {
   }
 
   public QueryUtil(
-      Analyzer analyzer, Similarity similarity, int max_results, String filenameAddon) {
+      Analyzer analyzer,
+      Similarity similarity,
+      int max_results,
+      String filenameAddon,
+      HashMap<String, Float> booster) {
     this.analyzer = analyzer;
     this.similarity = similarity;
     this.max_results = max_results;
@@ -63,15 +70,26 @@ public class QueryUtil {
 
     BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
 
-    HashMap<String, Float> score_booster = new HashMap<String, Float>();
-    score_booster.put("title", 0.6f);
-    score_booster.put("author", 0.03f);
-    score_booster.put("bibliography", 0.03f);
-    score_booster.put("text", 1f);
+    // title
+    // 0.50 -> 0.4157
+    // 0.55 -> 0.4156
+    // 0.6 -> 0.4150
+    // 0.65 -> 4131
+
+    // text
+    // 0.95 -> 0.4158
+    // 0.9 ->  0.4162
+    // 0.85 -> 0.4154
+
+    HashMap<String, Float> booster = new HashMap<String, Float>();
+    booster.put("title", 0.50f);
+    booster.put("author", 0.04f);
+    booster.put("bibliography", 0.03f);
+    booster.put("text", 0.95f);
 
     QueryParser queryParser =
         new MultiFieldQueryParser(
-            new String[] {"title", "author", "bibliography", "text"}, analyzer, score_booster);
+            new String[] {"title", "author", "bibliography", "text"}, analyzer, booster);
 
     QueryParserUtil queryParserUtil = new QueryParserUtil("data/cran/cran.qry");
     LinkedHashMap<Integer, String> queries = queryParserUtil.ParseQuery();
@@ -79,7 +97,8 @@ public class QueryUtil {
     for (Map.Entry<Integer, String> query : queries.entrySet()) {
 
       ScoreDoc[] hits =
-          isearcher.search(queryParser.parse(query.getValue()), max_results).scoreDocs;
+          isearcher.search(queryParser.parse(replacePunctuation(query.getValue())), max_results)
+              .scoreDocs;
 
       // query-id Q0 document-id rank score STANDARD
       for (ScoreDoc hit : hits) {

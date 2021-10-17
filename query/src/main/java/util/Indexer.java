@@ -21,6 +21,8 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
+import static util.Utils.replacePunctuation;
+
 public class Indexer {
   public static final String INDEX_DIR = "index";
   private final Analyzer analyzer;
@@ -68,7 +70,7 @@ public class Indexer {
       doc.add(new TextField("title", modifiedList.get(1), Field.Store.YES));
       doc.add(new TextField("author", modifiedList.get(2), Field.Store.YES));
       doc.add(new TextField("bibliography", modifiedList.get(3), Field.Store.YES));
-      doc.add(new TextField("text", modifiedList.get(4), Field.Store.YES));
+      doc.add(new TextField("text", replacePunctuation(modifiedList.get(4)), Field.Store.YES));
 
       documents.add(doc);
     }

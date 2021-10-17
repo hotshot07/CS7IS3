@@ -1,4 +1,4 @@
 util/QueryUtil.class
 Querier.class
-util/StopWords.class
 util/Indexer.class
+util/Utils.class
