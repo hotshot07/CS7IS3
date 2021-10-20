@@ -67,26 +67,4 @@ public class QueryParserUtil {
   //    return outputList;
   //  }
   //
-  //  public LinkedHashMap<Integer, String> getQueries() throws FileNotFoundException {
-  //    LinkedHashMap<Integer, String> queries = new LinkedHashMap<>();
-  //    queries.put(1, "ji");
-  //
-  //    File f = new File("queries");
-  //    String[] pathnames = f.list();
-  //    Long numberOfFiles = Arrays.stream(pathnames).count();
-  //
-  //    for (int i = 1; i <= numberOfFiles; i++) {
-  //      String filename = "queries/" + i + ".txt";
-  //      FileInputStream inputStream = new FileInputStream(filename);
-  //
-  //      final String regex = "\\w+:";
-  //      final Pattern pattern = Pattern.compile(regex, Pattern.MULTILINE);
-  //      Scanner scanner = new Scanner(inputStream).useDelimiter(pattern);
-  //      while (scanner.hasNext()) {
-  //        System.out.println(scanner.next());
-  //      }
-  //    }
-  //
-  //    return queries;
-  //  }
 }

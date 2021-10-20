@@ -51,7 +51,7 @@ public class QueryUtil {
     this.filenameAddon = filenameAddon;
   }
 
-  public void runQuery() throws IOException, ParseException, org.json.simple.parser.ParseException {
+  public void runQuery() throws IOException, ParseException {
 
     createDir();
 
@@ -85,7 +85,7 @@ public class QueryUtil {
     booster.put("title", 0.50f);
     booster.put("author", 0.04f);
     booster.put("bibliography", 0.03f);
-    booster.put("text", 1f);
+    booster.put("text", 1.1f);
 
     QueryParser queryParser =
         new MultiFieldQueryParser(

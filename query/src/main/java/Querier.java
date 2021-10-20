@@ -1,10 +1,17 @@
 import org.apache.lucene.analysis.Analyzer;
+import org.apache.lucene.analysis.CharArraySet;
+import org.apache.lucene.analysis.TokenStream;
+import org.apache.lucene.analysis.Tokenizer;
+import org.apache.lucene.analysis.core.LowerCaseFilter;
+import org.apache.lucene.analysis.core.SimpleAnalyzer;
+import org.apache.lucene.analysis.core.StopAnalyzer;
+import org.apache.lucene.analysis.core.WhitespaceAnalyzer;
 import org.apache.lucene.analysis.en.EnglishAnalyzer;
+import org.apache.lucene.analysis.ngram.NGramTokenizer;
+import org.apache.lucene.analysis.standard.ClassicAnalyzer;
+import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.queryparser.classic.ParseException;
-import org.apache.lucene.search.similarities.AxiomaticF1LOG;
-import org.apache.lucene.search.similarities.BM25Similarity;
-import org.apache.lucene.search.similarities.MultiSimilarity;
-import org.apache.lucene.search.similarities.Similarity;
+import org.apache.lucene.search.similarities.*;
 import util.Indexer;
 import util.QueryUtil;
 
@@ -18,25 +25,33 @@ import static util.Utils.getStopWords;
 
 public class Querier {
 
-  public static void main(String[] args)
-      throws IOException, InterruptedException, ParseException,
-          org.json.simple.parser.ParseException {
+  public static void main(String[] args) throws IOException, InterruptedException, ParseException {
     List<Analyzer> analysers = new ArrayList<>();
-    //    analysers.add(new SimpleAnalyzer());
-    //    analysers.add(new StandardAnalyzer(getStopWords()));
-    //    analysers.add(new ClassicAnalyzer(getStopWords()));
-    analysers.add(new EnglishAnalyzer(getStopWords()));
-    //    analysers.add(new StopAnalyzer(getStopWords()));
+    analysers.add(new SimpleAnalyzer());
+    analysers.add(new StandardAnalyzer(new CharArraySet(getStopWords(), true)));
+    analysers.add(new ClassicAnalyzer(new CharArraySet(getStopWords(), true)));
+    analysers.add(new EnglishAnalyzer(new CharArraySet(getStopWords(), true)));
+    analysers.add(new WhitespaceAnalyzer());
+    analysers.add(
+        new Analyzer() {
+          @Override
+          protected TokenStreamComponents createComponents(String s) {
+            Tokenizer tokenizer = new NGramTokenizer(1, 3);
+            TokenStream filter = new LowerCaseFilter(tokenizer);
+            return new TokenStreamComponents(tokenizer, filter);
+          }
+        });
+    analysers.add(new StopAnalyzer(new CharArraySet(getStopWords(), true)));
 
     List<Similarity> similarities = new ArrayList<>();
 
-    //    similarities.add(new ClassicSimilarity());
+    similarities.add(new ClassicSimilarity());
     similarities.add(new BM25Similarity(1.2f, 0.8f));
     similarities.add(
         new MultiSimilarity(new Similarity[] {new BM25Similarity(), new AxiomaticF1LOG()}));
-    //    similarities.add(new AxiomaticF1EXP());
-    //    similarities.add(new AxiomaticF1LOG());
-    //    similarities.add(new AxiomaticF2EXP());
+    similarities.add(new AxiomaticF1EXP());
+    similarities.add(new AxiomaticF1LOG());
+    similarities.add(new AxiomaticF2EXP());
 
     for (Analyzer analyser : analysers) {
       for (Similarity similarity : similarities) {
@@ -96,7 +111,8 @@ public class Querier {
 }
 
   // CODE TO CHECK THE MOST EFFICIENT PARAMETERS FOR BMK,B
-
+// public static void main(String[] args) throws IOException, InterruptedException,
+//  // ParseException {
   //    float k;
   //    float b;
   //    for (k = 0.2f; k <= 5f; k += 0.2f) {
