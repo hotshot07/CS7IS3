@@ -104,7 +104,7 @@ public class QueryUtil {
       for (ScoreDoc hit : hits) {
         Document hitDoc = isearcher.doc(hit.doc);
         writer.write(
-            query.getKey() + " Q0" + hitDoc.get("id") + " 1 " + hit.score + " STANDARD \n");
+            query.getKey() + " Q0 " + hitDoc.get("id") + " 1 " + hit.score + " STANDARD \n");
       }
     }
     System.out.format("Created result file in %s \n", filename);

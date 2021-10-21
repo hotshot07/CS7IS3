@@ -46,8 +46,8 @@ public class Indexer {
 
     IndexWriterConfig config = new IndexWriterConfig(analyzer);
     config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
-    config.setSimilarity(similarity);
     config.setRAMBufferSizeMB(512);
+    config.setSimilarity(similarity);
 
     IndexWriter iwriter = new IndexWriter(directory, config);
 
@@ -77,7 +77,7 @@ public class Indexer {
     }
 
     iwriter.addDocuments(documents);
-    System.out.format("Indexed %s documents. ", documents.size());
+    System.out.format("Indexed %s documents. \n", documents.size());
 
     iwriter.close();
     directory.close();
@@ -85,7 +85,7 @@ public class Indexer {
 
   private List<String> modifyList(List<String> listToModify) {
     for (int i = 0; i < listToModify.size(); i++) {
-      listToModify.set(i, listToModify.get(i).replaceAll("\\w+:", ""));
+      listToModify.set(i, listToModify.get(i).replaceAll("\\w+:", "").strip());
     }
     return listToModify;
   }

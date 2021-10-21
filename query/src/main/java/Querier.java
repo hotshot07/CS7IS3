@@ -42,11 +42,12 @@ public class Querier {
           }
         });
     analysers.add(new StopAnalyzer(new CharArraySet(getStopWords(), true)));
-
+    analysers.add(new EnglishAnalyzer(new CharArraySet(getStopWords(), true)));
     List<Similarity> similarities = new ArrayList<>();
 
-    similarities.add(new ClassicSimilarity());
+    //    similarities.add(new ClassicSimilarity());
     similarities.add(new BM25Similarity(1.2f, 0.8f));
+    similarities.add(new LMDirichletSimilarity(120));
     similarities.add(
         new MultiSimilarity(new Similarity[] {new BM25Similarity(), new AxiomaticF1LOG()}));
     similarities.add(new AxiomaticF1EXP());
