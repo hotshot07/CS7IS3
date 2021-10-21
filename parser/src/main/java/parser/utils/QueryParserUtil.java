@@ -7,6 +7,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Scanner;
 
+// Reads the cran.qry file and returns a LinkedHashMap<Integer, String> of ID and query
 public class QueryParserUtil {
   private final String file;
 
@@ -14,7 +15,7 @@ public class QueryParserUtil {
     file = fileToRead;
   }
 
-  public LinkedHashMap<Integer, String> ParseQuery() throws IOException {
+  public LinkedHashMap<Integer, String> parseQuery() throws IOException {
     LinkedHashMap<Integer, String> queries = new LinkedHashMap<>();
     FileInputStream inputStream = new FileInputStream(file);
     String delimiterRegex = ".[A-Z]";
@@ -29,7 +30,7 @@ public class QueryParserUtil {
       addToList = addToList.replaceAll("\n+", "").trim();
 
       outputList.add(addToList);
-
+      // similar logic as used in DocumentParser class
       if (outputList.size() == 2 && outputList.get(0).matches("[0-9]+")) {
         queryFilename += 1;
         queries.put(queryFilename, outputList.get(1).replaceAll("\r", " ").replaceAll("\\?", ""));

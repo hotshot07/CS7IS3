@@ -25,8 +25,10 @@ import java.util.Map;
 
 import static util.Utils.replacePunctuation;
 
+// This class queries the index and creates the score file in
+// Results/results_{analyser}_{similarity}
+
 public class QueryUtil {
-  private static String INDEX_DIRECTORY = "index";
   private final int max_results;
   private final Analyzer analyzer;
   private final Similarity similarity;
@@ -39,6 +41,8 @@ public class QueryUtil {
     this.max_results = max_results;
   }
 
+  // the constructor is overloaded, as I had to check the optimal values for boosters for the same
+  // analyser and similarity, hence the filenameAddon as well to distinguish it
   public QueryUtil(
       Analyzer analyzer,
       Similarity similarity,
@@ -53,8 +57,10 @@ public class QueryUtil {
 
   public void runQuery() throws IOException, ParseException {
 
+    // creates the result dir
     createDir();
 
+    final String INDEX_DIRECTORY = "index";
     Directory directory = FSDirectory.open(Paths.get(INDEX_DIRECTORY));
 
     DirectoryReader ireader = DirectoryReader.open(directory);
@@ -70,17 +76,7 @@ public class QueryUtil {
 
     BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
 
-    // title
-    // 0.50 -> 0.4157
-    // 0.55 -> 0.4156
-    // 0.6 -> 0.4150
-    // 0.65 -> 4131
-
-    // text
-    // 0.95 -> 0.4158
-    // 0.9 ->  0.4162
-    // 0.85 -> 0.4154
-
+    // using boosting in MultiFieldQueryParser to boost scores for certain fields
     HashMap<String, Float> booster = new HashMap<String, Float>();
     booster.put("title", 0.50f);
     booster.put("author", 0.04f);
@@ -91,8 +87,9 @@ public class QueryUtil {
         new MultiFieldQueryParser(
             new String[] {"title", "author", "bibliography", "text"}, analyzer, booster);
 
+    // getting a LinkedHashMap<Integer, String> using QueryParserUtil in parser module
     QueryParserUtil queryParserUtil = new QueryParserUtil("data/cran/cran.qry");
-    LinkedHashMap<Integer, String> queries = queryParserUtil.ParseQuery();
+    LinkedHashMap<Integer, String> queries = queryParserUtil.parseQuery();
 
     for (Map.Entry<Integer, String> query : queries.entrySet()) {
 
@@ -100,14 +97,14 @@ public class QueryUtil {
           isearcher.search(queryParser.parse(replacePunctuation(query.getValue())), max_results)
               .scoreDocs;
 
-      // query-id Q0 document-id rank score STANDARD
+      // writing query-id Q0 document-id rank score STANDARD in results file
       for (ScoreDoc hit : hits) {
         Document hitDoc = isearcher.doc(hit.doc);
         writer.write(
             query.getKey() + " Q0 " + hitDoc.get("id") + " 1 " + hit.score + " STANDARD \n");
       }
     }
-    System.out.format("Created result file in %s \n", filename);
+    System.out.format("\nCreated result file: %s\n", filename);
     writer.close();
     ireader.close();
     directory.close();

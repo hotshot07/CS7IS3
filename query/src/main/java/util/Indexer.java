@@ -18,13 +18,14 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
 import static util.Utils.replacePunctuation;
 
 public class Indexer {
-  public static final String INDEX_DIR = "index";
+  private final String INDEX_DIR = "index";
   private final Analyzer analyzer;
   private final Similarity similarity;
 
@@ -33,6 +34,7 @@ public class Indexer {
     this.similarity = similarity;
   }
 
+  // creates the index directory if it doesnt exist
   private void createDir() {
     boolean indexDirectory = new File(INDEX_DIR).mkdir();
   }
@@ -44,6 +46,8 @@ public class Indexer {
 
     Directory directory = FSDirectory.open(Paths.get(INDEX_DIR));
 
+    // creating index writer config, setting RAMBufferSize to increase performance
+    // and setting similarity
     IndexWriterConfig config = new IndexWriterConfig(analyzer);
     config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
     config.setRAMBufferSizeMB(512);
@@ -51,19 +55,21 @@ public class Indexer {
 
     IndexWriter iwriter = new IndexWriter(directory, config);
 
+    // getting a list of path of all the files in the corpus
     List<Path> pathToFilesInFolder =
         Files.walk(Paths.get("data/corpus"))
             .filter(Files::isRegularFile)
             .collect(Collectors.toList());
 
     for (Path path : pathToFilesInFolder) {
-
+      // for every file path
       Scanner scanner = new Scanner(path).useDelimiter("\n+");
       List<String> originalList = new ArrayList<>();
       while (scanner.hasNext()) {
         originalList.add(scanner.next());
       }
 
+      // modifying the list
       List<String> modifiedList = modifyList(originalList);
 
       Document doc = new Document();
@@ -76,13 +82,21 @@ public class Indexer {
       documents.add(doc);
     }
 
+    // writing docs to the index
     iwriter.addDocuments(documents);
-    System.out.format("Indexed %s documents. \n", documents.size());
+
+    System.out.println(
+        "\nCreated index with "
+            + analyzer.getClass().getSimpleName().toLowerCase(Locale.ROOT)
+            + " and "
+            + similarity.getClass().getSimpleName().toLowerCase(Locale.ROOT)
+            + "\n");
 
     iwriter.close();
     directory.close();
   }
 
+  // removing the text till colon, like Id: , Author:
   private List<String> modifyList(List<String> listToModify) {
     for (int i = 0; i < listToModify.size(); i++) {
       listToModify.set(i, listToModify.get(i).replaceAll("\\w+:", "").strip());

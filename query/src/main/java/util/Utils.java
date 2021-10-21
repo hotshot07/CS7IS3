@@ -4,12 +4,15 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
+// Utility class for functions that are used across different classes
 public class Utils {
 
+  // replaces all punctionation in the text with whitespace
   public static String replacePunctuation(String inputString) {
     return inputString.toLowerCase(Locale.ROOT).replaceAll("\\p{Punct}", " ");
   }
 
+  // list of stopwords
   public static List<String> getStopWords() {
     List<String> stopWords =
         Arrays.asList(

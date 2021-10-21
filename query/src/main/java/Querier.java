@@ -18,7 +18,6 @@ import util.QueryUtil;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
 import static util.Utils.getStopWords;
@@ -26,6 +25,8 @@ import static util.Utils.getStopWords;
 public class Querier {
 
   public static void main(String[] args) throws IOException, InterruptedException, ParseException {
+
+    // creating a list of analysers to iterate through
     List<Analyzer> analysers = new ArrayList<>();
     analysers.add(new SimpleAnalyzer());
     analysers.add(new StandardAnalyzer(new CharArraySet(getStopWords(), true)));
@@ -43,11 +44,12 @@ public class Querier {
         });
     analysers.add(new StopAnalyzer(new CharArraySet(getStopWords(), true)));
     analysers.add(new EnglishAnalyzer(new CharArraySet(getStopWords(), true)));
-    List<Similarity> similarities = new ArrayList<>();
 
-    //    similarities.add(new ClassicSimilarity());
+    // creating a list of similarities
+    List<Similarity> similarities = new ArrayList<>();
+    similarities.add(new ClassicSimilarity());
     similarities.add(new BM25Similarity(1.2f, 0.8f));
-    similarities.add(new LMDirichletSimilarity(120));
+    similarities.add(new LMDirichletSimilarity(1500));
     similarities.add(
         new MultiSimilarity(new Similarity[] {new BM25Similarity(), new AxiomaticF1LOG()}));
     similarities.add(new AxiomaticF1EXP());
@@ -56,22 +58,21 @@ public class Querier {
 
     for (Analyzer analyser : analysers) {
       for (Similarity similarity : similarities) {
+        // creating index for the particular analyser and similarity
         Indexer indexer = new Indexer(analyser, similarity);
         indexer.createIndex();
-        System.out.println(
-            "Created index with "
-                + analyser.getClass().getSimpleName().toLowerCase(Locale.ROOT)
-                + " and "
-                + similarity.getClass().getSimpleName().toLowerCase(Locale.ROOT));
 
-        TimeUnit.SECONDS.sleep(2);
+        // waiting 1 second before querying
+        TimeUnit.SECONDS.sleep(1);
 
+        // Querying the index using the same analyser/similarity pair
         QueryUtil queryUtil = new QueryUtil(analyser, similarity, 1400);
         queryUtil.runQuery();
       }
     }
   }
-
+}
+  // CODE TO TEST BEST BOOSTER PARAMS
   //  public static void main(String[] args) throws IOException, InterruptedException,
   // ParseException {
   //    for (float title = 0.4f; title <= 0.8f; title += 0.05f) {
@@ -109,11 +110,10 @@ public class Querier {
   //        }
   //      }
   //    }
-}
 
   // CODE TO CHECK THE MOST EFFICIENT PARAMETERS FOR BMK,B
-// public static void main(String[] args) throws IOException, InterruptedException,
-//  // ParseException {
+  // public static void main(String[] args) throws IOException, InterruptedException,
+  //  ParseException {
   //    float k;
   //    float b;
   //    for (k = 0.2f; k <= 5f; k += 0.2f) {

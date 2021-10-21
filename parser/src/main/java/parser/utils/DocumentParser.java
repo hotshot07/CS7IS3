@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+// Class to parse the cran.all.1400 file
 public class DocumentParser {
   private final String file;
 
@@ -12,22 +13,27 @@ public class DocumentParser {
     this.file = fileToRead;
   }
 
-  public void ParseDocument() throws IOException {
+  public void parseDocument() throws IOException {
     FileInputStream inputStream = new FileInputStream(file);
     String delimiterRegex = ".[A-Z]";
 
     Scanner scanner = new Scanner(inputStream).useDelimiter(delimiterRegex);
     List<String> outputList = new ArrayList<>();
 
+    // while there is something in scanner
     while (scanner.hasNext()) {
       String addToList = scanner.next();
       addToList = addToList.replaceAll("\n+", "").trim();
 
       outputList.add(addToList);
 
+      // if the output list is equal to 5 AND if the first thing is ID of form [0-9]+
+      // then we can write to corpus in data/corpus
+      // else, we get the index of the id, and remove everything else present before the index
+      // as thats useless info
       if (outputList.size() == 5) {
         if (outputList.get(0).matches("[0-9]+")) {
-          WriteToCorpusDir(outputList);
+          writeToCorpusDir(outputList);
           outputList.clear();
         } else {
           // check if there is index somewhere
@@ -51,16 +57,18 @@ public class DocumentParser {
     return -1;
   }
 
-  private void WriteToCorpusDir(List<String> outputList) throws IOException {
+  private void writeToCorpusDir(List<String> outputList) throws IOException {
 
     boolean directory = new File("data/corpus").mkdir();
 
+    //filename is the id
     String filename = outputList.get(0).trim();
 
     if (filename.matches("[0-9]+")) {
       String file = "data/corpus/" + filename + ".txt";
 
       BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+      // modifying the list, so it's easier to read while indexing
       List<String> modifiedOutputlist = modifyOutputlist(outputList);
       String modifiedOutputString = String.join("\n\n", modifiedOutputlist);
 
