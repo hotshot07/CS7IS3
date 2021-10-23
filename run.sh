@@ -51,7 +51,9 @@ java -jar parser/target/parser-1.0-SNAPSHOT.jar
 
 sleep 1;
 
-printf "Executing Querier JAR, this might take some minutes"
+printf "Executing Querier JAR, this might take some minutes.\nI have commented out most of the analysers and similarities in Querier class to save time, they can be uncommented as per requirement"
+
+sleep 2;
 
 java -jar query/target/query-1.0-SNAPSHOT-shaded.jar
 

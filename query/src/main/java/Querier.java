@@ -1,14 +1,6 @@
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.CharArraySet;
-import org.apache.lucene.analysis.TokenStream;
-import org.apache.lucene.analysis.Tokenizer;
-import org.apache.lucene.analysis.core.LowerCaseFilter;
-import org.apache.lucene.analysis.core.SimpleAnalyzer;
-import org.apache.lucene.analysis.core.StopAnalyzer;
-import org.apache.lucene.analysis.core.WhitespaceAnalyzer;
 import org.apache.lucene.analysis.en.EnglishAnalyzer;
-import org.apache.lucene.analysis.ngram.NGramTokenizer;
-import org.apache.lucene.analysis.standard.ClassicAnalyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.search.similarities.*;
@@ -22,39 +14,40 @@ import java.util.concurrent.TimeUnit;
 
 import static util.Utils.getStopWords;
 
+// Commenting out most of the analysers and similarities to save time
+// They can be uncommented as per requirement
 public class Querier {
 
   public static void main(String[] args) throws IOException, InterruptedException, ParseException {
 
     // creating a list of analysers to iterate through
     List<Analyzer> analysers = new ArrayList<>();
-    analysers.add(new SimpleAnalyzer());
+    // analysers.add(new SimpleAnalyzer());
     analysers.add(new StandardAnalyzer(new CharArraySet(getStopWords(), true)));
-    analysers.add(new ClassicAnalyzer(new CharArraySet(getStopWords(), true)));
     analysers.add(new EnglishAnalyzer(new CharArraySet(getStopWords(), true)));
-    analysers.add(new WhitespaceAnalyzer());
-    analysers.add(
-        new Analyzer() {
-          @Override
-          protected TokenStreamComponents createComponents(String s) {
-            Tokenizer tokenizer = new NGramTokenizer(1, 3);
-            TokenStream filter = new LowerCaseFilter(tokenizer);
-            return new TokenStreamComponents(tokenizer, filter);
-          }
-        });
-    analysers.add(new StopAnalyzer(new CharArraySet(getStopWords(), true)));
-    analysers.add(new EnglishAnalyzer(new CharArraySet(getStopWords(), true)));
+    //    analysers.add(new ClassicAnalyzer(new CharArraySet(getStopWords(), true)));
+    //    analysers.add(new WhitespaceAnalyzer());
+    //    analysers.add(
+    //        new Analyzer() {
+    //          @Override
+    //          protected TokenStreamComponents createComponents(String s) {
+    //            Tokenizer tokenizer = new NGramTokenizer(1, 3);
+    //            TokenStream filter = new LowerCaseFilter(tokenizer);
+    //            return new TokenStreamComponents(tokenizer, filter);
+    //          }
+    //        });
+    //    analysers.add(new StopAnalyzer(new CharArraySet(getStopWords(), true)));
 
     // creating a list of similarities
     List<Similarity> similarities = new ArrayList<>();
     similarities.add(new ClassicSimilarity());
     similarities.add(new BM25Similarity(1.2f, 0.8f));
-    similarities.add(new LMDirichletSimilarity(1500));
+    //    similarities.add(new LMDirichletSimilarity(1500));
     similarities.add(
         new MultiSimilarity(new Similarity[] {new BM25Similarity(), new AxiomaticF1LOG()}));
-    similarities.add(new AxiomaticF1EXP());
-    similarities.add(new AxiomaticF1LOG());
-    similarities.add(new AxiomaticF2EXP());
+    //    similarities.add(new AxiomaticF1EXP());
+    //    similarities.add(new AxiomaticF1LOG());
+    //    similarities.add(new AxiomaticF2EXP());
 
     for (Analyzer analyser : analysers) {
       for (Similarity similarity : similarities) {
